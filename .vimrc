@@ -61,6 +61,10 @@ set shiftwidth=2
 set tabstop=2
 set expandtab 
 set textwidth=80
+set nohlsearch
+set incsearch
+set ignorecase
+set ruler
 
 " Key Bindings
 :let mapleader = ","
