@@ -22,6 +22,7 @@ NeoBundle 'mxw/vim-jsx'
 NeoBundle 'morhetz/gruvbox'
 NeoBundle 'leafgarland/typescript-vim'
 NeoBundle 'tpope/vim-commentary.git'
+NeoBundle 'tpope/vim-surround.git'
 NeoBundle 'kien/ctrlp.vim'
 
 call neobundle#end()  
