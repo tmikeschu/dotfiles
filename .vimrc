@@ -36,6 +36,7 @@ NeoBundle 'mxw/vim-jsx'
 NeoBundle 'morhetz/gruvbox'
 NeoBundle 'leafgarland/typescript-vim'
 NeoBundle 'tpope/vim-commentary.git'
+NeoBundle 'kien/ctrlp.vim'
 
 call neobundle#end()  
 filetype plugin indent on
@@ -49,7 +50,6 @@ set nocompatible
 
 set backspace=indent,eol,start
 
-execute pathogen#infect()
 syntax on
 set number
 " " Enable file type detection and do language-dependent indenting.
@@ -65,6 +65,7 @@ set nohlsearch
 set incsearch
 set ignorecase
 set ruler
+
 
 " Key Bindings
 :let mapleader = ","
@@ -83,15 +84,15 @@ set ruler
 
 " Window Navigation
 :tnoremap <Esc><Esc> <C-\><C-n> 
-:tnoremap <C-k> <C-\><C-n> :wincmd k<CR>
-:tnoremap <C-j> <C-\><C-n> :wincmd j<CR>
-:tnoremap <C-h> <C-\><C-n> :wincmd h<CR>
-:tnoremap <C-l> <C-\><C-n> :wincmd l<CR>
+:tnoremap <ESC>k <C-\><C-n> :wincmd k<CR>
+:tnoremap <ESC>j <C-\><C-n> :wincmd j<CR>
+:tnoremap <ESC>h <C-\><C-n> :wincmd h<CR>
+:tnoremap <ESC>l <C-\><C-n> :wincmd l<CR>
 :nnoremap <Tab> <C-w><C-w> 
-:nmap <silent> <C-k> :wincmd k<CR>
-:nmap <silent> <C-j> :wincmd j<CR>
-:nmap <silent> <C-h> :wincmd h<CR>
-:nmap <silent> <C-l> :wincmd l<CR>
+:nmap <silent> <ESC>k :wincmd k<CR>
+:nmap <silent> <ESC>j :wincmd j<CR>
+:nmap <silent> <ESC>h :wincmd h<CR>
+:nmap <silent> <ESC>l :wincmd l<CR>
 :nnoremap <leader>z <CR>:sp<CR><C-w>j<CR>:resize 15<CR><CR>:set wfh<CR><CR>:terminal<CR>source $HOME/.bash_profile<CR>clear<CR>
 :nnoremap <leader>t <CR>:terminal<CR>source $HOME/.bash_profile<CR>
 :nnoremap <leader>vs <CR>:vsp<CR><C-w>l

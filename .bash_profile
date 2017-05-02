@@ -15,8 +15,9 @@ echo "Hello, Mike"
 alias spoken="cd ~/projects/the-spoken-tour"
 alias spoken-api="cd ~/projects/the-spoken-tour-api"
 alias tmikeschu="cd ~/projects/personal-site"
-alias backend="cd ~/projects/backend-curriculum-site"
+alias backend="cd ~/Turing/backend-curriculum-site"
 alias bashpro="nvim ~/dotfiles/.bash_profile"
+alias vimrc="nvim ~/dotfiles/.vimrc"
 alias sourcebash="source ~/dotfiles/.bash_profile"
 alias dotfiles="cd ~/dotfiles"
 
@@ -104,3 +105,4 @@ alias be="bundle exec"
   }
 
   PROMPT_COMMAND='build_mah_prompt'
+export PATH="/usr/local/bin:$PATH"
