@@ -1,4 +1,3 @@
-" Key Bindings
 :let mapleader = ","
 
 " Saving/Closing
@@ -12,6 +11,7 @@
 " Clipboard
 :vmap <leader>y "*y<CR>
 :nmap <leader>p "*p<CR>
+:nmap <leader>P "*P<CR>
 
 " Window Navigation
 :tnoremap <Esc><Esc> <C-\><C-n> 
