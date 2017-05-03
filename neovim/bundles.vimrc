@@ -24,6 +24,7 @@ NeoBundle 'leafgarland/typescript-vim'
 NeoBundle 'tpope/vim-commentary.git'
 NeoBundle 'tpope/vim-surround.git'
 NeoBundle 'kien/ctrlp.vim'
+NeoBundle 'janko-m/vim-test'
 
 call neobundle#end()  
 filetype plugin indent on

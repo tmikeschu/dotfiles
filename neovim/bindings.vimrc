@@ -42,3 +42,8 @@ noremap <Right> <NOP>
 
 " Recordings
 :nmap <leader>2 @
+
+" Tests
+nmap <silent> <leader>tl :TestNearest<CR>
+nmap <silent> <leader>ta :TestFile<CR>
+nmap <silent> <leader>ts :TestSuite<CR>
