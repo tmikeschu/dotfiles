@@ -1,11 +1,12 @@
+colorscheme gruvbox
+let g:solarized_termcolors=256
+syntax on
+filetype plugin indent on
+
 set nocompatible
 set backspace=indent,eol,start
-syntax on
 set number
-filetype plugin indent on
 set background=dark
-let g:solarized_termcolors=256
-colorscheme gruvbox
 set shiftwidth=2
 set tabstop=2
 set expandtab 
@@ -14,4 +15,5 @@ set nohlsearch
 set incsearch
 set ignorecase
 set ruler
+set textwidth=80
 
