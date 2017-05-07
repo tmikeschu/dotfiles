@@ -17,3 +17,5 @@ set ignorecase
 set ruler
 set textwidth=80
 
+let g:airline_theme='luna'
+
