@@ -27,6 +27,7 @@ NeoBundle 'kien/ctrlp.vim'
 NeoBundle 'janko-m/vim-test'
 NeoBundle 'vim-airline/vim-airline'
 NeoBundle 'vim-airline/vim-airline-themes'
+NeoBundle 'tpope/vim-endwise'
 
 call neobundle#end()  
 filetype plugin indent on
