@@ -47,3 +47,7 @@ noremap <Right> <NOP>
 nmap <silent> <leader>tl :TestNearest<CR>
 nmap <silent> <leader>ta :TestFile<CR>
 nmap <silent> <leader>ts :TestSuite<CR>
+
+" Macros
+nmap <leader>hr F:xea:<ESC>wdw
+
