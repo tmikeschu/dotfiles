@@ -41,13 +41,10 @@ noremap <Right> <NOP>
 :map <leader>hr <CR>:resize 
 
 " Recordings
-:nmap <leader>2 @
+:nmap <leader>m @
 
 " Tests
 nmap <silent> <leader>tl :TestNearest<CR>
 nmap <silent> <leader>ta :TestFile<CR>
 nmap <silent> <leader>ts :TestSuite<CR>
-
-" Macros
-nmap <leader>hr F:xea:<ESC>wdw
 

@@ -28,6 +28,8 @@ NeoBundle 'janko-m/vim-test'
 NeoBundle 'vim-airline/vim-airline'
 NeoBundle 'vim-airline/vim-airline-themes'
 NeoBundle 'tpope/vim-endwise'
+NeoBundle 'tpope/vim-repeat'
+NeoBundle 'tpope/vim-sensible'
 
 call neobundle#end()  
 filetype plugin indent on
