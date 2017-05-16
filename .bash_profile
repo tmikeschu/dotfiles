@@ -4,6 +4,8 @@ export HISTCONTROL=erasedups
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"
 source "$HOME/.rvm/scripts/rvm"
+export PATH="$PATH:$HOME/.rvm/bin"
+
 export EDITOR=nvim
 echo "Hello, Mike"
 # Take you to the dir of a file in a gem. e.g. `2gem rspec`
@@ -106,3 +108,5 @@ alias be="bundle exec"
 
   PROMPT_COMMAND='build_mah_prompt'
 export PATH="/usr/local/bin:$PATH"
+
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
