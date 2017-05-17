@@ -24,12 +24,13 @@ NeoBundle 'leafgarland/typescript-vim'
 NeoBundle 'tpope/vim-commentary.git'
 NeoBundle 'tpope/vim-surround.git'
 NeoBundle 'kien/ctrlp.vim'
-NeoBundle 'janko-m/vim-test'
+NeoBundle 'thoughtbot/vim-rspec'
 NeoBundle 'vim-airline/vim-airline'
 NeoBundle 'vim-airline/vim-airline-themes'
 NeoBundle 'tpope/vim-endwise'
 NeoBundle 'tpope/vim-repeat'
 NeoBundle 'tpope/vim-sensible'
+NeoBundle 'wakatime/vim-wakatime'
 
 call neobundle#end()  
 filetype plugin indent on

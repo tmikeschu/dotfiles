@@ -44,7 +44,8 @@ noremap <Right> <NOP>
 :nmap <leader>m @
 
 " Tests
-nmap <silent> <leader>tl :TestNearest<CR>
-nmap <silent> <leader>ta :TestFile<CR>
-nmap <silent> <leader>ts :TestSuite<CR>
+map <Leader>tc :call RunCurrentSpecFile()<CR>
+map <Leader>tt :call RunNearestSpec()<CR>
+map <Leader>tl :call RunLastSpec()<CR>
+map <Leader>ta :call RunAllSpecs()<CR>
 
