@@ -38,7 +38,7 @@ noremap <Right> <NOP>
 
 " Window Sizing
 :map <leader>rv <CR>:vertical resize 
-:map <leader>r <CR>:resize 
+:map <leader>rh <CR>:resize 
 
 " Recordings
 :nmap <leader>m @
