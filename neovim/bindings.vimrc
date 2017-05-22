@@ -1,12 +1,14 @@
 :let mapleader = ","
+let g:jsx_ext_required = 0 " Allow JSX in normal JS files
 
 " Saving/Closing
 :map <leader>s :w<CR>
 :map <leader>q :q<CR>
 :map <leader>wq :wq<CR>
+:map <leader>ca :qa<CR>
 
-" Highlighting
-:map <leader>c :noh<CR><CR>
+" Folds
+:vmap <leader>f :fold<CR>
 
 " Clipboard
 :vmap <leader>y "*y<CR>
@@ -14,6 +16,7 @@
 :nmap <leader>P "*P<CR>
 
 " Window Navigation
+:nnoremap <leader>tn :tabnew<CR>
 :tnoremap <Esc><Esc> <C-\><C-n> 
 :tnoremap <C-h> <C-\><C-n> :wincmd h<CR>
 :tnoremap <C-j> <C-\><C-n> :wincmd j<CR>
