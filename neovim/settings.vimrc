@@ -19,3 +19,5 @@ set textwidth=80
 
 let g:airline_theme='luna'
 
+autocmd FileType gitcommit,markdown,md,text,txt setlocal spell
+
