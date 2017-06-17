@@ -16,8 +16,14 @@ set incsearch
 set ignorecase
 set ruler
 set textwidth=80
+set relativenumber
+set gdefault
+set breakindent
+set showbreak=\\\\\
 
 let g:airline_theme='luna'
 
 autocmd FileType gitcommit,markdown,md,text,txt setlocal spell
+autocmd FileType gitcommit,markdown,md,text,txt setlocal complete+=kspell
+autocmd VimResized * wincmd =
 
