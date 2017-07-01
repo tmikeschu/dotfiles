@@ -25,6 +25,7 @@ alias dotfiles="cd ~/dotfiles"
 
 # Testing
 alias cr='clear & be rspec'
+alias citest='CI=true npm test'
 
 # Chrome shortcuts
 alias rails_guide="open http://guides.rubyonrails.org/index.html"
