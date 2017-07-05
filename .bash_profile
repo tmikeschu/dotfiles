@@ -13,6 +13,8 @@ echo "Hello, Mike"
   cd "$(dirname $(gem which $1))"
 }
 
+alias rebash="source ~/.bash_profile"
+
 # Frequent Projects
 alias spoken="cd ~/projects/the-spoken-tour"
 alias spoken-api="cd ~/projects/the-spoken-tour-api"
