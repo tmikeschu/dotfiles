@@ -1,4 +1,4 @@
-colorscheme gruvbox
+colorscheme srcery
 let g:solarized_termcolors=256
 syntax on
 filetype plugin indent on
