@@ -32,6 +32,7 @@ NeoBundle 'tpope/vim-repeat'
 NeoBundle 'tpope/vim-sensible'
 NeoBundle 'wakatime/vim-wakatime'
 NeoBundle 'pbrisbin/vim-mkdir'
+NeoBundle 'cakebaker/scss-syntax.vim'
 
 call neobundle#end()  
 filetype plugin indent on
