@@ -54,6 +54,9 @@ alias glod='git log --graph --pretty="%Cgreen%h%Creset%Cblue%d%Creset %Cred%an%C
 # -h humanize sizes
 # -q print nongraphic chars as question marks
 alias l="ls -lFGgohq"
+export CLICOLOR=1
+export LSCOLORS=GxFxCxDxBxegedabagaced
+alias ls='ls -GFh'
 
 # give the fullpaths of files passed in argv or piped through stdin
 function fullpath {
