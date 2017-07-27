@@ -3,8 +3,6 @@ export PROMPT_COMMAND="my_custom_function; $PROMPT_COMMAND"
 export HISTCONTROL=erasedups
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"
-source "$HOME/.rvm/scripts/rvm"
-export PATH="$PATH:$HOME/.rvm/bin"
 
 export EDITOR=nvim
 echo "Hello, Mike"
@@ -116,4 +114,7 @@ alias be="bundle exec"
   PROMPT_COMMAND='build_mah_prompt'
 export PATH="/usr/local/bin:$PATH"
 
-[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
+export PATH="$HOME/.rbenv/bin:$PATH"
+eval "$(rbenv init -)"
+eval "$(nodenv init -)"
+
