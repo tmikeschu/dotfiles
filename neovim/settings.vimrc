@@ -9,7 +9,7 @@ set number
 set background=dark
 set shiftwidth=2
 set tabstop=2
-set expandtab 
+set expandtab
 set textwidth=80
 set nohlsearch
 set incsearch
