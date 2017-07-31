@@ -16,7 +16,7 @@ let g:jsx_ext_required = 0 " Allow JSX in normal JS files
 :nmap <leader>P "*P<CR>
 
 " Window Navigation
-:nnoremap <leader>tn :tabnew<CR>
+:nnoremap <leader>tn :tabnew<CR>:e.<CR>
 :tnoremap <Esc><Esc> <C-\><C-n> 
 :tnoremap <C-h> <C-\><C-n> :wincmd h<CR>
 :tnoremap <C-j> <C-\><C-n> :wincmd j<CR>
