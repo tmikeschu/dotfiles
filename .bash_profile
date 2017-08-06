@@ -47,6 +47,7 @@ alias grebase='git rebase'
 alias grontinue='git rebase --continue'
 alias grip='git rebase --skip'
 alias grabort='git rebase --abort'
+alias gush='git push'
 
 # fancy ls command
 # -l  long format
