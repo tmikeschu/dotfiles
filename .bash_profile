@@ -35,7 +35,6 @@ alias ruby_docs="open http://ruby-doc.org/"
 
 # Git aliases
 alias gs="git status"
-alias git='hub'
 alias gd="git diff --patience --ignore-space-change"
 alias gc="git checkout"
 alias gcb="git checkout -b"
@@ -43,6 +42,11 @@ alias gommit="git commit"
 alias gb="git branch"
 alias gh="git hist"
 alias glod='git log --graph --pretty="%Cgreen%h%Creset%Cblue%d%Creset %Cred%an%Creset: %s"'
+alias getch='git fetch'
+alias grebase='git rebase'
+alias grontinue='git rebase --continue'
+alias grip='git rebase --skip'
+alias grabort='git rebase --abort'
 
 # fancy ls command
 # -l  long format
