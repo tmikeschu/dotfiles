@@ -22,6 +22,7 @@ set breakindent
 set showbreak=\\\\\
 
 let g:airline_theme='luna'
+let g:airline_section_z = airline#section#create(['linenr'])
 
 autocmd FileType gitcommit,markdown,md,text,txt setlocal spell
 autocmd FileType gitcommit,markdown,md,text,txt setlocal complete+=kspell
