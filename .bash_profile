@@ -14,7 +14,7 @@ echo "Hello, Mike"
 alias rebash="source ~/.bash_profile"
 
 # shell commands
-alias grep="grep -Rin --color"
+alias grepd="grep -Rin --color"
 
 # Frequent Projects
 alias spoken="cd ~/projects/the-spoken-tour"
