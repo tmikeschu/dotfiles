@@ -26,7 +26,7 @@ alias bashpro="nvim ~/dotfiles/.bash_profile"
 alias vimrc="nvim ~/dotfiles/.vimrc"
 alias sourcebash="source ~/dotfiles/.bash_profile"
 alias dotfiles="cd ~/dotfiles"
-alias quikly="cd ~/quikly/src/quikly"
+alias quikly="cd ~/src/quikly"
 
 # Testing
 alias cr='clear & be rspec'
