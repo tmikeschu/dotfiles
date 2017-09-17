@@ -5,6 +5,7 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"
 
 export EDITOR=nvim
+source ~/.set-defaults
 echo "Hello, Mike"
 # Take you to the dir of a file in a gem. e.g. `2gem rspec`
 2gem () {
