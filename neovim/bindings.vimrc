@@ -27,7 +27,7 @@ let g:jsx_ext_required = 0 " Allow JSX in normal JS files
 :nmap <silent> <C-j> :wincmd j<CR>
 :nmap <silent> <C-h> :wincmd h<CR>
 :nmap <silent> <C-l> :wincmd l<CR>
-:nnoremap <leader>z <CR>:sp<CR><C-w>j<CR>:resize 5<CR><CR>:set wfh<CR><CR>:terminal<CR>source $HOME/.bash_profile<CR>clear<CR>
+:nnoremap <leader>z <CR>:sp<CR><C-w>j<CR>:resize 10<CR><CR>:set wfh<CR><CR>:terminal<CR>source $HOME/.bash_profile<CR>clear<CR>
 :nnoremap <leader>t <CR>:terminal<CR>source $HOME/.bash_profile<CR>
 :nnoremap <leader>vs <CR>:vsp<CR><C-w>l
 :nnoremap <leader>hs <CR>:sp<CR><C-w>j<CR>:resize 20<CR>
