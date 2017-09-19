@@ -1,5 +1,7 @@
 colorscheme gruvbox
-syntax on
+if !exists("g:syntax_on")
+  syntax enable
+endif
 filetype plugin indent on
 
 set nocompatible
