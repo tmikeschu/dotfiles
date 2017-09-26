@@ -21,6 +21,8 @@ set relativenumber
 set gdefault
 set breakindent
 set showbreak=\\\\\
+set splitright
+set splitbelow
 
 autocmd FileType gitcommit,markdown,md,text,txt setlocal spell
 autocmd FileType gitcommit,markdown,md,text,txt setlocal complete+=kspell
