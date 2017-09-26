@@ -138,7 +138,7 @@ eval "$(nodenv init -)"
 
 [ -f /opt/boxen/env.sh ] && source /opt/boxen/env.sh
 
-function quikly {
-  cd ~/quikly/src/quikly
+function quikly_server {
+  cd ~/src/quikly
   heroku local -f Procfile.dev
 }
