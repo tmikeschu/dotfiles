@@ -11,3 +11,6 @@ nmap <leader>ji iit('', () => {})<ESC>hi<CR><ESC>
 nmap <leader>rd idescribe "" do<CR>it "" do<CR><ESC>k^f"a
 nmap <leader>ri iit "" do<CR><ESC>k^f"a
 
+" console.log()
+nmap <leader>cl iconsole.log()<ESC>i<CR><ESC>O
+
