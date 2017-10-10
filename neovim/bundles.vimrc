@@ -1,11 +1,11 @@
-if has('vim_starting')  
+if has('vim_starting')
   set runtimepath+=~/.config/nvim/bundle/neobundle.vim/
   set runtimepath+=~/.config/nvim/
 endif
 
 let neobundle_readme=expand('~/.config/nvim/bundle/neobundle.vim/README.md')
 
-if !filereadable(neobundle_readme)  
+if !filereadable(neobundle_readme)
   echo "Installing NeoBundle..."
   echo ""
   silent !mkdir -p ~/.config/nvim/bundle
@@ -13,7 +13,7 @@ if !filereadable(neobundle_readme)
   let g:not_finsh_neobundle = "yes"
 endif
 
-call neobundle#begin(expand('$HOME/.config/nvim/bundle'))  
+call neobundle#begin(expand('$HOME/.config/nvim/bundle'))
 NeoBundleFetch 'Shougo/neobundle.vim'
 
 NeoBundle 'tomlion/vim-solidity'
@@ -34,9 +34,10 @@ NeoBundle 'tpope/vim-sensible'
 NeoBundle 'wakatime/vim-wakatime'
 NeoBundle 'pbrisbin/vim-mkdir'
 NeoBundle 'cakebaker/scss-syntax.vim'
+NeoBundle 'vim-syntastic/syntastic'
 
-call neobundle#end()  
+call neobundle#end()
 filetype plugin indent on
 
-NeoBundleCheck  
+NeoBundleCheck
 
