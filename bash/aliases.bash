@@ -10,8 +10,11 @@ alias tmikeschu="cd ~/projects/personal-site"
 alias bashpro="nvim ~/dotfiles/.bash_profile"
 alias vimrc="nvim ~/dotfiles/.vimrc"
 alias dotfiles="cd ~/dotfiles"
+
+#  Quikly
 alias quikly="cd ~/src/quikly"
 alias admin-ui="cd ~/src/quikly-admin-ui"
+alias graphql="cd ~/src/graphql-explorer"
 
 # Testing
 alias cr='clear & be rspec'
