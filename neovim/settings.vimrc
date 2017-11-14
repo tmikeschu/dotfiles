@@ -1,13 +1,15 @@
-colorscheme gruvbox
 if !exists("g:syntax_on")
   syntax enable
 endif
+colorscheme OceanicNext
+" colorscheme gruvbox
 filetype plugin indent on
 
 set nocompatible
 set backspace=indent,eol,start
 set number
-set background=dark
+set background=light
+" set background=dark
 set shiftwidth=2
 set tabstop=2
 set expandtab

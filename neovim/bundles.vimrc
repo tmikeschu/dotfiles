@@ -38,6 +38,7 @@ NeoBundle 'vim-syntastic/syntastic'
 NeoBundle 'styled-components/vim-styled-components'
 NeoBundle 'kchmck/vim-coffee-script'
 NeoBundle 'sbdchd/neoformat'
+NeoBundle 'mhartington/oceanic-next'
 
 call neobundle#end()
 filetype plugin indent on
