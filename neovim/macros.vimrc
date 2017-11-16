@@ -14,3 +14,6 @@ nmap <leader>ri iit "" do<CR><ESC>k^f"a
 " console.log()
 nmap <leader>cl iconsole.log()<ESC>i<CR><ESC>O
 
+" break comma separated arguments to new lines
+
+nmap <leader>, ^f,wi<BS><CR><ESC>
