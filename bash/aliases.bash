@@ -15,6 +15,7 @@ alias dotfiles="cd ~/dotfiles"
 alias quikly="cd ~/src/quikly"
 alias admin-ui="cd ~/src/quikly-admin-ui"
 alias graphql="cd ~/src/graphql-explorer"
+alias storybook="npm run storybook"
 
 # Testing
 alias cr='clear & be rspec'
