@@ -13,4 +13,3 @@ source $HOME/dotfiles/bash/prompt.bash
 source $HOME/dotfiles/bash/fullpath.bash
 source $HOME/dotfiles/bash/quikly.bash
 source $HOME/dotfiles/bash/2gem.bash
-
