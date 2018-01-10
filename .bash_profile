@@ -2,8 +2,6 @@ echo "Hello, Mike"
 
 export HISTCONTROL=erasedups
 export EDITOR=nvim
-eval "$(rbenv init -)"
-eval "$(nodenv init -)"
 
 source $HOME/.set-defaults
 source $HOME/dotfiles/bash/PATH.bash
