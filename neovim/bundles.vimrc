@@ -35,6 +35,7 @@ NeoBundle 'thoughtbot/vim-rspec'
 NeoBundle 'tomlion/vim-solidity'
 NeoBundle 'ElmCast/elm-vim'
 NeoBundle 'vim-syntastic/syntastic'
+NeoBundle 'fatih/vim-go'
 
 " Tools
 NeoBundle 'kien/ctrlp.vim'
