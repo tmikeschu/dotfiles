@@ -5,4 +5,3 @@ function fullpath {
     ARGV.each { |path| puts File.expand_path path }         unless ARGV.empty?
   ' "$@"
 }
-

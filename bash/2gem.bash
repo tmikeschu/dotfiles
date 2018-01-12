@@ -2,4 +2,3 @@
 2gem () {
   cd "$(dirname $(gem which $1))"
 }
-

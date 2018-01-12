@@ -42,4 +42,3 @@ export PROMPT_COMMAND="my_custom_function; $PROMPT_COMMAND"
   }
 
   PROMPT_COMMAND='build_mah_prompt'
-

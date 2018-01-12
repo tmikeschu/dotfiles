@@ -8,4 +8,3 @@ if [ -f ~/.git-completion.bash ]; then
   __git_complete grebase _git_rebase
   __git_complete gush _git_push
 fi
-
