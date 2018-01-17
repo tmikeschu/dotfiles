@@ -6,5 +6,3 @@ let g:ctrlp_custom_ignore = {
   \ 'dir':  '\.git$\|\.hg$\|\.svn$\|dist$\|node_modules$\|tmp$\|public$',
   \ 'file': '\v\.(exe|so|dll)$'
   \ }
-let g:syntastic_javascript_checkers = ['eslint']
-let g:syntastic_javascript_eslint_exe='$(npm bin)/eslint'

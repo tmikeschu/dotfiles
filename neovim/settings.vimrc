@@ -29,3 +29,5 @@ set splitbelow
 autocmd FileType gitcommit,markdown,md,text,txt setlocal spell
 autocmd FileType gitcommit,markdown,md,text,txt setlocal complete+=kspell
 autocmd VimResized * wincmd =
+
+source $HOME/dotfiles/neovim/syntastic.vimrc
