@@ -1,7 +1,7 @@
 " Macros
 
 " Convert old ruby hash syntax
-nmap <leader>hr F:xea:<ESC>wdw 
+nmap <leader>hr F:xea:<ESC>wdw<Space>
 
 " JS describe and it block
 nmap <leader>jd idescribe('', () => {})<ESC>hi<CR><ESC>A;<ESC>Oit('', () => {})<ESC>hi<CR><ESC>A;<ESC>
@@ -23,3 +23,6 @@ nmap <leader>in ^iimport {  } from '';<ESC>F{la
 
 " export default ES6
 nmap <leader>ed Go<CR><ESC>^iexport default ;<ESC>i
+
+" JSX eslint disable/enable comment wrapper
+nmap <leader>jsxesl vipS/A* eslint-disable */<ESC>v^S}}kA* eslint-enable */<ESC>v^S}vip=2f*bea<Space>
