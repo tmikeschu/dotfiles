@@ -26,3 +26,6 @@ nmap <leader>ed Go<CR><ESC>^iexport default ;<ESC>i
 
 " JSX eslint disable/enable comment wrapper
 nmap <leader>jsxesl vipS/A* eslint-disable */<ESC>v^S}}kA* eslint-enable */<ESC>v^S}vip=2f*bea<Space>
+"
+" JSX comment
+nmap <leader>jsxc O{/* */}<ESC>2F*a<Space>
