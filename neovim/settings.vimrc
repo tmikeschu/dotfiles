@@ -20,7 +20,7 @@ set textwidth=80
 set relativenumber
 set gdefault
 set breakindent
-set showbreak=\/\/\/\/\/\/\/\
+set showbreak=<><><><><><><>
 set splitright
 set splitbelow
 
