@@ -48,6 +48,9 @@ NeoBundle 'wakatime/vim-wakatime'
 NeoBundle 'mhartington/oceanic-next'
 NeoBundle 'morhetz/gruvbox'
 NeoBundle 'vim-airline/vim-airline-themes'
+NeoBundle 'jdsimcoe/abstract.vim'
+NeoBundle 'AlessandroYorba/Sierra'
+NeoBundle 'endel/vim-github-colorscheme'
 
 call neobundle#end()
 filetype plugin indent on
