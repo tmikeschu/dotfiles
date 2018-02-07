@@ -7,7 +7,7 @@ filetype plugin indent on
 set nocompatible
 set backspace=indent,eol,start
 set number
-set background=dark
+set background=light
 set shiftwidth=2
 set tabstop=2
 set expandtab
