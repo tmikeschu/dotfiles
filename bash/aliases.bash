@@ -13,6 +13,8 @@ alias dotfiles="cd ~/dotfiles"
 
 #  Quikly
 alias quikly="cd ~/src/quikly"
+alias quikly-full="ttab 'quikly; rails c' && ttab 'quikly; nvim .' && quikly &&
+  heroku local -f Procfile.dev"
 alias admin-ui="cd ~/src/quikly-admin-ui"
 alias graphql="cd ~/src/graphql-explorer"
 alias story="npm run storybook"
