@@ -12,13 +12,13 @@ alias vimrc="nvim ~/dotfiles/.vimrc"
 alias dotfiles="cd ~/dotfiles"
 
 #  Quikly
-alias quikly="cd ~/src/quikly"
+alias quikly="cd ~/q/quikly"
 alias quikly-full="ttab 'quikly; rails c' && ttab 'quikly; nvim .' && quikly &&
   heroku local -f Procfile.dev"
-alias admin-ui="cd ~/src/quikly-admin-ui"
-alias graphql="cd ~/src/graphql-explorer"
+alias admin-ui="cd ~/q/quikly-admin-ui"
+alias graphql="cd ~/q/graphql-explorer"
 alias story="npm run storybook"
-alias qemail="cd ~/src/quikly-email-service"
+alias qemail="cd ~/q/quikly-email-service"
 
 # Testing
 alias cr='clear & be rspec'
