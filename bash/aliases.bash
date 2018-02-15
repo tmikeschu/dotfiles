@@ -18,6 +18,7 @@ alias quikly-full="ttab 'quikly; rails c' && ttab 'quikly; nvim .' && quikly &&
 alias admin-ui="cd ~/src/quikly-admin-ui"
 alias graphql="cd ~/src/graphql-explorer"
 alias story="npm run storybook"
+alias qemail="cd ~/src/quikly-email-service"
 
 # Testing
 alias cr='clear & be rspec'
