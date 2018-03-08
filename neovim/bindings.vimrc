@@ -55,3 +55,5 @@ map <Leader>tc :call RunCurrentSpecFile()<CR>
 map <Leader>tt :call RunNearestSpec()<CR>
 map <Leader>tl :call RunLastSpec()<CR>
 map <Leader>ta :call RunAllSpecs()<CR>
+
+nnoremap K :grep! "\b<C-R><C-W>\b"<CR>:cw<CR>
