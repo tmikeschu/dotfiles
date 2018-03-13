@@ -1,7 +1,7 @@
 alias rebash="source ~/.bash_profile"
 
 # shell commands
-alias grepd="grep -Rin --exclude-dir node_modules --color"
+alias grepd="grep -Rin --exclude-dir={node_modules,.git} --color"
 
 # Frequent Projects
 alias spoken="cd ~/projects/the-spoken-tour"
