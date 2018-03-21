@@ -1,31 +1,47 @@
+set nocompatible
+
 if !exists("g:syntax_on")
   syntax enable
 endif
-colorscheme abstract
 filetype plugin indent on
 
-set nocompatible
-set backspace=indent,eol,start
-set number
-set background=light
+
+" Color
+set background=dark
+colorscheme OceanicNext
+
+" Tabs/Backspace
 set shiftwidth=2
 set tabstop=2
 set expandtab
+set backspace=indent,eol,start
+
+" Workspace
 set textwidth=80
+set ruler
+set number
+set relativenumber
+set breakindent
+set showbreak=\\\\\\\\\\\\\\\
+set lbr
+set smartindent
+
+" Search
 set nohlsearch
 set incsearch
 set ignorecase
-set ruler
-set textwidth=80
-set relativenumber
+set smartcase
 set gdefault
-set breakindent
-set showbreak=<><><><><><><>
+
+
+" Splits
 set splitright
 set splitbelow
-
-autocmd FileType gitcommit,markdown,md,text,txt setlocal spell
-autocmd FileType gitcommit,markdown,md,text,txt setlocal complete+=kspell
 autocmd VimResized * wincmd =
 
+" Spellcheck
+autocmd FileType gitcommit,markdown,md,text,txt setlocal spell
+autocmd FileType gitcommit,markdown,md,text,txt setlocal complete+=kspell
+
+" Formatting
 source $HOME/dotfiles/neovim/syntastic.vimrc
