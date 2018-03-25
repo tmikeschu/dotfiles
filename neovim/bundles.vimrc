@@ -53,6 +53,5 @@ NeoBundle 'AlessandroYorba/Sierra'
 NeoBundle 'endel/vim-github-colorscheme'
 
 call neobundle#end()
-filetype plugin indent on
 
 NeoBundleCheck

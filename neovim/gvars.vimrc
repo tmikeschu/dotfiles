@@ -18,3 +18,5 @@ if executable('ag')
   " ag is fast enough that CtrlP doesn't need to cache
   let g:ctrlp_use_caching = 0
 endif
+
+let g:jsx_ext_required = 0 " Allow JSX in normal JS files
