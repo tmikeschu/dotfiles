@@ -45,3 +45,6 @@ autocmd FileType gitcommit,markdown,md,text,txt setlocal complete+=kspell
 
 " Formatting
 source $HOME/dotfiles/neovim/syntastic.vimrc
+
+" Files
+set includeexpr=v:fname.'.'
