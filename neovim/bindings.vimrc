@@ -9,7 +9,7 @@ map <leader>wq :wq<CR>
 vmap <leader>f :fold<CR>
 
 " Clipboard
-vmap <leader>y "*y<CR>
+vmap <leader>y "+
 nmap <leader>p "*p<CR>
 nmap <leader>P "*P<CR>
 
