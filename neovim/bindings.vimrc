@@ -30,7 +30,7 @@ tnoremap <C-h> <C-\><C-n> :wincmd h<CR>
 tnoremap <C-j> <C-\><C-n> :wincmd j<CR>
 tnoremap <C-k> <C-\><C-n> :wincmd k<CR>
 tnoremap <C-l> <C-\><C-n> :wincmd l<CR>
-nnoremap <leader>z <CR>:sp<CR><C-w>j<CR>:resize 10<CR><CR>:set wfh<CR><CR>:terminal<CR>source $HOME/.bash_profile<CR>clear<CR>
+nnoremap <leader>z gg<CR>:sp<CR><C-w>j<CR>:resize 10<CR><CR>:set wfh<CR><CR>:terminal<CR>source $HOME/.bash_profile<CR>clear<CR>
 nnoremap <leader>t <CR>:terminal<CR>source $HOME/.bash_profile<CR>
 
 
