@@ -8,8 +8,8 @@ nmap <leader>jd idescribe('', () => {})<ESC>hi<CR><ESC>A;<ESC>Oit('', () => {})<
 nmap <leader>ji iit('', () => {})<ESC>hi<CR><ESC>A;<ESC>
 
 " RSpec describe and it block
-nmap <leader>rd idescribe "" do<CR>it "" do<CR><ESC>k^f"a
-nmap <leader>ri iit "" do<CR><ESC>k^f"a
+nmap <leader>rd odescribe "" do<CR><ESC>ddk<Space>ri
+nmap <leader>ri oit "" do<CR><ESC>k0f"a
 
 " console.log()
 nmap <leader>cl iconsole.log()<ESC>i<CR><ESC>O
