@@ -10,6 +10,7 @@ vmap <leader>f :fold<CR>
 
 " Clipboard
 nmap <leader>y "+y
+vmap <leader>y "+y
 nmap <leader>p "*p<CR>
 nmap <leader>P "*P<CR>
 
