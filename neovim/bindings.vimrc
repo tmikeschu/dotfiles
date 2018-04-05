@@ -9,10 +9,9 @@ map <leader>wq :wq<CR>
 vmap <leader>f :fold<CR>
 
 " Clipboard
-nmap <leader>y "+y
-vmap <leader>y "+y
-nmap <leader>p "*p<CR>
-nmap <leader>P "*P<CR>
+map <leader>y "+y
+map <leader>p "*p<CR>
+map <leader>P "*P<CR>
 
 " Window Navigation
 nnoremap <leader>tn :tabnew<CR>:e.<CR>
