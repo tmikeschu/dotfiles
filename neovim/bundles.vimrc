@@ -36,6 +36,8 @@ NeoBundle 'tomlion/vim-solidity'
 NeoBundle 'ElmCast/elm-vim'
 NeoBundle 'vim-syntastic/syntastic'
 NeoBundle 'fatih/vim-go'
+NeoBundle 'elixir-editors/vim-elixir'
+NeoBundle 'slashmili/alchemist.vim'
 
 " Tools
 NeoBundle 'kien/ctrlp.vim'

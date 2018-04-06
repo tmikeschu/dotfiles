@@ -54,3 +54,5 @@ nmap <leader>m @
 " Search
 nnoremap K :grep! "\b<C-R><C-W>\b"<CR>:cw<CR>
 vnoremap // y/<C-R>"<CR>
+nnoremap <leader>n :cnext<CR>
+nnoremap <leader>N :cprev<CR>
