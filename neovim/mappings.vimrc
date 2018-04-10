@@ -23,6 +23,7 @@ nmap <silent> <C-l> :wincmd l<CR>
 nnoremap <leader>vs <CR>:vsp<CR><C-w>l
 nnoremap <leader>hs <CR>:sp<CR><C-w>j<CR>:resize 20<CR>
 nnoremap <leader>e <CR>:Explore<CR>
+nmap <leader><leader> <C-^>
 
 "Terminal
 tnoremap <Esc><Esc> <C-\><C-n>
