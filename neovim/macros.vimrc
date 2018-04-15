@@ -32,3 +32,6 @@ nmap <leader>jsxc O{/* */}<ESC>2F*a<Space>
 
 " Ramda-esque log helper
 nmap <leader>rl ^iconst LOG = label => x => { console.log(label, x); return x; }<ESC>
+
+" Ruby log helper
+nmap <leader>rbl ^ilog = ->(x) { byebug; x }
