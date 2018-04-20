@@ -45,6 +45,7 @@ alias grip='git rebase --skip'
 alias grabort='git rebase --abort'
 alias gush='git push'
 alias gremote='git remote'
+alias grefresh='getch && grebase && bundle && yarn install && rails db:{migrate,test:prepare}'
 
 # fancy ls command
 # -l  long format
