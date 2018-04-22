@@ -18,11 +18,11 @@ NeoBundleFetch 'Shougo/neobundle.vim'
 
 " Tim Pope
 NeoBundle 'tpope/vim-commentary.git'
-NeoBundle 'tpope/vim-surround.git'
-NeoBundle 'tpope/vim-fugitive.git'
 NeoBundle 'tpope/vim-endwise'
+NeoBundle 'tpope/vim-fugitive.git'
 NeoBundle 'tpope/vim-repeat'
 NeoBundle 'tpope/vim-sensible'
+NeoBundle 'tpope/vim-surround.git'
 
 " Languages / Syntax
 NeoBundle 'ElmCast/elm-vim'
@@ -32,6 +32,7 @@ NeoBundle 'fatih/vim-go'
 NeoBundle 'kchmck/vim-coffee-script'
 NeoBundle 'leafgarland/typescript-vim'
 NeoBundle 'mxw/vim-jsx'
+NeoBundle 'othree/html5.vim'
 NeoBundle 'pangloss/vim-javascript'
 NeoBundle 'slashmili/alchemist.vim'
 NeoBundle 'styled-components/vim-styled-components'
@@ -48,12 +49,12 @@ NeoBundle 'vim-airline/vim-airline'
 NeoBundle 'wakatime/vim-wakatime'
 
 " Colors
+NeoBundle 'AlessandroYorba/Sierra'
+NeoBundle 'endel/vim-github-colorscheme'
+NeoBundle 'jdsimcoe/abstract.vim'
 NeoBundle 'mhartington/oceanic-next'
 NeoBundle 'morhetz/gruvbox'
 NeoBundle 'vim-airline/vim-airline-themes'
-NeoBundle 'jdsimcoe/abstract.vim'
-NeoBundle 'AlessandroYorba/Sierra'
-NeoBundle 'endel/vim-github-colorscheme'
 
 call neobundle#end()
 
