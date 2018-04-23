@@ -30,11 +30,11 @@ export PROMPT_COMMAND="my_custom_function; $PROMPT_COMMAND"
     git_branch=`parse_git_branch`
     if [[ ! -z "$git_branch" ]]
     then
-      ps1="${ps1} $(prompt_segment " $git_branch " 36)"
+      ps1="${ps1} $(prompt_segment "$git_branch " 36)🦕"
     fi
 
     # next line
-    ps1="${ps1}\n⚯  "
+    ps1="${ps1}\n∆|• "
 
     # set prompt output
   # !PS1="⚯  \W >> "
