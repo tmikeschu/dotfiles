@@ -35,3 +35,6 @@ nmap <leader>rl ^iconst LOG = label => x => { console.log(label, x); return x; }
 
 " Ruby log helper
 nmap <leader>rbl ^ilog = ->(x) { byebug; x }
+
+" Insert pry
+nmap <leader>rbp Orequire "pry"; binding.pry<ESC>:w<CR>
