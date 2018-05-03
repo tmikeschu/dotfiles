@@ -10,7 +10,7 @@ alias tmikeschu="cd ~/projects/personal-site"
 alias bashpro="nvim ~/dotfiles/.bash_profile"
 alias vimrc="nvim ~/dotfiles/.vimrc"
 alias dotfiles="cd ~/dotfiles"
-alias gocode="cd ~/go/src/projects"
+alias gocode="cd ~/go/src/github.com"
 
 #  Quikly
 alias quikly="cd ~/q/quikly"
