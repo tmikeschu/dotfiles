@@ -20,7 +20,8 @@ alias admin-ui="cd ~/q/quikly-admin-ui"
 alias graphql="cd ~/q/graphql-explorer"
 alias story="npm run storybook"
 alias qemail="cd ~/q/quikly-email-service"
-alias qclaim="cd ~/go/src/github.com/quikly/quikly-claim"
+alias qclaim="ttab 'cd ~/go/src/github.com/quikly/quikly-claim/client; nvim .' &&
+  cd ~/go/src/github.com/quikly/quikly-claim/server && nvim ."
 
 # Testing
 alias cr='clear & be rspec'
