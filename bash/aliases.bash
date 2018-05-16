@@ -2,6 +2,7 @@ alias rebash="source ~/.bash_profile"
 
 # shell commands
 alias grepd="grep -Rin --exclude-dir={node_modules,.git} --color"
+alias ttab="osascript -e 'tell application \"Terminal\" to activate' -e 'tell application \"System Events\" to tell process \"Terminal\" to keystroke \"t\" using command down'"
 
 # Frequent Projects
 alias spoken="cd ~/projects/the-spoken-tour"
