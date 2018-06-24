@@ -13,17 +13,6 @@ alias vimrc="nvim ~/dotfiles/.vimrc"
 alias dotfiles="cd ~/dotfiles"
 alias gocode="cd ~/go/src/github.com"
 
-#  Quikly
-alias quikly="cd ~/q/quikly"
-alias quikly-full="ttab 'quikly; rails c' && ttab 'quikly; nvim .' && quikly &&
-  heroku local -f Procfile.dev"
-alias admin-ui="cd ~/q/quikly-admin-ui"
-alias graphql="cd ~/q/graphql-explorer"
-alias story="npm run storybook"
-alias qemail="cd ~/q/quikly-email-service"
-alias qclaim="ttab 'cd ~/go/src/github.com/quikly/quikly-claim/client; nvim .' &&
-  cd ~/go/src/github.com/quikly/quikly-claim/server && nvim ."
-
 # Testing
 alias cr='clear & be rspec'
 alias citest='CI=true npm test'
