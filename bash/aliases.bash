@@ -13,6 +13,9 @@ alias vimrc="nvim ~/dotfiles/.vimrc"
 alias dotfiles="cd ~/dotfiles"
 alias gocode="cd ~/go/src/github.com"
 
+# HCW
+alias bullseye="cd ~/hcw/bullseye"
+
 # Testing
 alias cr='clear & be rspec'
 alias citest='CI=true npm test'
