@@ -33,6 +33,8 @@ set ignorecase
 set smartcase
 set gdefault
 
+au TermOpen * setlocal nonumber norelativenumber
+
 
 " Splits
 set splitright
