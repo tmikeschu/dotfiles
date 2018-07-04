@@ -51,11 +51,7 @@ NeoBundle 'vim-airline/vim-airline'
 NeoBundle 'wakatime/vim-wakatime'
 
 " Colors
-NeoBundle 'AlessandroYorba/Sierra'
-NeoBundle 'endel/vim-github-colorscheme'
-NeoBundle 'jdsimcoe/abstract.vim'
-NeoBundle 'mhartington/oceanic-next'
-NeoBundle 'morhetz/gruvbox'
+NeoBundle 'flazz/vim-colorschemes'
 NeoBundle 'vim-airline/vim-airline-themes'
 
 call neobundle#end()
