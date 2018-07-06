@@ -42,6 +42,7 @@ NeoBundle 'thoughtbot/vim-rspec'
 NeoBundle 'tomlion/vim-solidity'
 NeoBundle 'vim-ruby/vim-ruby'
 NeoBundle 'vim-syntastic/syntastic'
+NeoBundle 'shime/vim-livedown'
 
 " Tools
 NeoBundle 'kien/ctrlp.vim'
@@ -49,6 +50,7 @@ NeoBundle 'pbrisbin/vim-mkdir'
 NeoBundle 'sbdchd/neoformat'
 NeoBundle 'vim-airline/vim-airline'
 NeoBundle 'wakatime/vim-wakatime'
+NeoBundle 'ludovicchabant/vim-gutentags'
 
 " Colors
 NeoBundle 'flazz/vim-colorschemes'
