@@ -12,6 +12,8 @@ alias bashpro="nvim ~/dotfiles/.bash_profile"
 alias vimrc="nvim ~/dotfiles/.vimrc"
 alias dotfiles="cd ~/dotfiles"
 alias gocode="cd ~/go/src/github.com"
+alias planck="cd ~/qmk_firmware/keyboards/planck/keymaps/tmikeschu/"
+alias kbflash="cd ~/qmk_firmware && make planck/rev5:tmikeschu && make planck/rev5:tmikeschu:dfu"
 
 # HCW
 alias bullseye="cd ~/hcw/bullseye"
