@@ -56,6 +56,7 @@ NeoBundle 'wakatime/vim-wakatime'
 " Colors
 NeoBundle 'flazz/vim-colorschemes'
 NeoBundle 'vim-airline/vim-airline-themes'
+NeoBundle 'morhetz/gruvbox'
 
 call neobundle#end()
 

@@ -8,7 +8,8 @@ filetype plugin indent on
 
 " Color
 set background=dark
-colorscheme OceanicNext
+" colorscheme OceanicNext
+colorscheme gruvbox
 
 " Tabs/Backspace
 set shiftwidth=2
