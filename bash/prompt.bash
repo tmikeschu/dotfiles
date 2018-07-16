@@ -15,7 +15,7 @@ export PROMPT_COMMAND="my_custom_function; $PROMPT_COMMAND"
     # change the 37 to change the foreground
     # change the 45 to change the background
     if [[ ! -z "$1" ]]; then
-      echo "\[\033[${2:-35};49m\]${1}\[\033[0m\]"
+      echo "\[\033[${2:-32};49m\]${1}\[\033[0m\]"
     fi
   }
 
@@ -26,7 +26,7 @@ export PROMPT_COMMAND="my_custom_function; $PROMPT_COMMAND"
     git_branch=`parse_git_branch`
     if [[ ! -z "$git_branch" ]]
     then
-      ps1="${ps1} ∆|• $(prompt_segment "$git_branch " 36)🦕"
+      ps1="${ps1} ∆|• $(prompt_segment "$git_branch " 94)🦕"
     fi
 
     ps1="${ps1}\nλ "
