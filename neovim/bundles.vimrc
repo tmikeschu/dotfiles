@@ -50,12 +50,11 @@ NeoBundle 'kien/ctrlp.vim'
 NeoBundle 'ludovicchabant/vim-gutentags'
 NeoBundle 'pbrisbin/vim-mkdir'
 NeoBundle 'sbdchd/neoformat'
-NeoBundle 'vim-airline/vim-airline'
 NeoBundle 'wakatime/vim-wakatime'
+NeoBundle 'itchyny/lightline.vim'
 
 " Colors
 NeoBundle 'flazz/vim-colorschemes'
-NeoBundle 'vim-airline/vim-airline-themes'
 NeoBundle 'morhetz/gruvbox'
 
 call neobundle#end()
