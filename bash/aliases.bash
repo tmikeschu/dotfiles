@@ -17,7 +17,8 @@ alias kbflash="cd ~/qmk_firmware && make planck/rev5:tmikeschu && make planck/re
 
 # HCW
 alias bullseye="cd ~/hcw/bullseye"
-alias instrukt="cd ~/hcw/instrukt"
+alias ikclient="cd ~/hcw/instrukt/react-client"
+alias ikapi="cd ~/hcw/instrukt/web-app"
 
 # Testing
 alias cr='clear & be rspec'
