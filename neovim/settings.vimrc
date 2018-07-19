@@ -9,6 +9,7 @@ filetype plugin indent on
 " Color
 set background=dark
 " colorscheme OceanicNext
+let g:gruvbox_guisp_fallback = "bg"
 colorscheme gruvbox
 
 " Tabs/Backspace
