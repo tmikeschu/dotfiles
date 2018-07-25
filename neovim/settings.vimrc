@@ -48,7 +48,7 @@ autocmd FileType gitcommit,markdown,md,text,txt setlocal spell
 autocmd FileType gitcommit,markdown,md,text,txt setlocal complete+=kspell
 
 " Formatting
-source $HOME/dotfiles/neovim/syntastic.vimrc
+source $HOME/dotfiles/neovim/ale.vimrc
 
 " Files
 set includeexpr=v:fname.'.'
