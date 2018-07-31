@@ -46,6 +46,7 @@ NeoBundle 'thoughtbot/vim-rspec'
 NeoBundle 'tomlion/vim-solidity'
 NeoBundle 'vim-ruby/vim-ruby'
 NeoBundle 'w0rp/ale'
+NeoBundle 'wellle/targets.vim'
 
 " Tools
 NeoBundle 'kien/ctrlp.vim'
