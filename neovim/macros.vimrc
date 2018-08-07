@@ -38,3 +38,7 @@ nmap <leader>rbl ^ilog = ->(x) { byebug; x }
 
 " Insert pry
 nmap <leader>rbp Orequire "pry"; binding.pry<ESC>:w<CR>
+
+" grep for term
+nmap <leader>gw yiwq:igrep -R ""<ESC>i<C-R><C-R>"<ESC>A<Space>
+vmap <leader>g yq:igrep -R ""<ESC>i<C-R><C-R>"<ESC>A<Space>
