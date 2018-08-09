@@ -16,7 +16,7 @@ alias planck="cd ~/qmk_firmware/keyboards/planck/keymaps/tmikeschu/"
 alias kbflash="cd ~/qmk_firmware && make planck/rev5:tmikeschu && make planck/rev5:tmikeschu:dfu"
 
 # HCW
-alias bullseye="cd ~/hcw/bullseye"
+alias bullseye="cd ~/hcw/bullseye/bullseye"
 alias ikclient="cd ~/hcw/instrukt/react-client"
 alias ikapi="cd ~/hcw/instrukt/web-app"
 
