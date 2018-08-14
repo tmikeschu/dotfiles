@@ -2,8 +2,7 @@ let g:lightline = {
       \ 'colorscheme': 'seoul256',
       \ 'active': {
       \   'left': [ [ 'mode', 'paste' ],
-      \             [ 'relativepath', 'modified' ] ],
-      \   'right': [[ 'linter_checking', 'linter_errors', 'linter_warnings', 'linter_ok' ]]
+      \             [ 'relativepath', 'modified' ] ]
       \ },
       \ 'inactive': {
       \   'left': [ [ 'relativepath'] ]
