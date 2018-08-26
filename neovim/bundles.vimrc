@@ -60,6 +60,7 @@ NeoBundle 'itchyny/lightline.vim'
 " Colors
 NeoBundle 'flazz/vim-colorschemes'
 NeoBundle 'morhetz/gruvbox'
+NeoBundle 'chrisbra/Colorizer'
 
 call neobundle#end()
 
