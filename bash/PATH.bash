@@ -8,6 +8,7 @@ export PATH="$HOME/.rbenv/bin:$PATH"
 export PATH="$HOME/.kiex/bin:$PATH"
 export PATH="$(brew --prefix qt@5.5)/bin:$PATH"
 export PATH="~/bin:$PATH"
+export PATH="$HOME/.cargo/bin:$PATH"
 
 eval "$(rbenv init -)"
 eval "$(nodenv init -)"
