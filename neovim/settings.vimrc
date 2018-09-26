@@ -7,10 +7,8 @@ filetype plugin indent on
 
 
 " Color
+colorscheme dracula
 set background=dark
-" colorscheme OceanicNext
-let g:gruvbox_guisp_fallback = "bg"
-colorscheme gruvbox
 
 " Tabs/Backspace
 set shiftwidth=2
