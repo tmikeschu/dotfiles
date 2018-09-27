@@ -1,4 +1,5 @@
 set nocompatible
+autocmd! GUIEnter * set vb t_vb=
 
 if !exists("g:syntax_on")
   syntax enable
