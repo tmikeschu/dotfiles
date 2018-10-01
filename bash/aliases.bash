@@ -16,10 +16,9 @@ alias planck="cd ~/qmk_firmware/keyboards/planck/keymaps/tmikeschu/"
 alias kbflash="cd ~/qmk_firmware && make planck/rev5:tmikeschu && make planck/rev5:tmikeschu:dfu"
 alias icloud="cd ~/Library/Mobile\ Documents/com~apple~CloudDocs"
 
-# HCW
-alias bullseye="cd ~/hcw/bullseye/bullseye"
-alias ikclient="cd ~/hcw/instrukt/react-client"
-alias ikapi="cd ~/hcw/instrukt/web-app"
+# clinc
+alias clplat="cd $CLINC_PATH/web/adminconsole"
+alias clsite="cd ~/clinc/clinc-website/clinc/"
 
 # Testing
 alias cr='clear & be rspec'
