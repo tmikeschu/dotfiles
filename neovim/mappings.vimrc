@@ -26,13 +26,15 @@ nnoremap <leader>e <CR>:Explore<CR>
 nmap <leader><leader> <C-^>
 
 "Terminal
-tnoremap <Esc><Esc> <C-\><C-n>
-tnoremap <C-h> <C-\><C-n> :wincmd h<CR>
-tnoremap <C-j> <C-\><C-n> :wincmd j<CR>
-tnoremap <C-k> <C-\><C-n> :wincmd k<CR>
-tnoremap <C-l> <C-\><C-n> :wincmd l<CR>
-nnoremap <leader>z gg<CR>:sp<CR><C-w>j<CR>:resize 10<CR><CR>:set wfh<CR><CR>:terminal<CR>source $HOME/.bash_profile<CR>clear<CR>
-nnoremap <leader>t <CR>:terminal<CR>source $HOME/.bash_profile<CR>
+if has('nvim')
+  tnoremap <Esc><Esc> <C-\><C-n>
+  tnoremap <C-h> <C-\><C-n> :wincmd h<CR>
+  tnoremap <C-j> <C-\><C-n> :wincmd j<CR>
+  tnoremap <C-k> <C-\><C-n> :wincmd k<CR>
+  tnoremap <C-l> <C-\><C-n> :wincmd l<CR>
+  nnoremap <leader>z gg<CR>:sp<CR><C-w>j<CR>:resize 10<CR><CR>:set wfh<CR><CR>:terminal<CR>source $HOME/.bash_profile<CR>clear<CR>
+  nnoremap <leader>t <CR>:terminal<CR>source $HOME/.bash_profile<CR>
+endif
 
 
 " No arrow keys

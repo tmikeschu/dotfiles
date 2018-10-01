@@ -19,5 +19,8 @@ if executable('ag')
 endif
 
 let g:jsx_ext_required = 0 " Allow JSX in normal JS files
-
 let g:elm_format_autosave = 1
+
+if !has('nvim')
+  let g:go_version_warning = 0
+endif

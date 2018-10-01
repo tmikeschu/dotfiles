@@ -34,7 +34,9 @@ set ignorecase
 set smartcase
 set gdefault
 
-au TermOpen * setlocal nonumber norelativenumber
+if has('nvim')
+  au TermOpen * setlocal nonumber norelativenumber
+endif
 
 
 " Splits
