@@ -17,7 +17,10 @@ alias kbflash="cd ~/qmk_firmware && make planck/rev5:tmikeschu && make planck/re
 alias icloud="cd ~/Library/Mobile\ Documents/com~apple~CloudDocs"
 
 # clinc
-alias clplat="cd $CLINC_PATH/web/adminconsole"
+function clplat() {
+  ssh -i ~/.ssh/id_rsa mike.schutte@cdn.clinc.ai
+  echo "me"
+}
 alias clsite="cd ~/clinc/clinc-website/clinc/"
 
 # Testing
