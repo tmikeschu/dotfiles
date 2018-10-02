@@ -3,7 +3,11 @@ echo "Hello, Mike"
 export HISTCONTROL=erasedups
 export EDITOR=nvim
 
-source $HOME/.set-defaults
+if [[ $(uname -s) == Darwin ]]
+then
+  source $HOME/.set-defaults
+fi
+
 source $HOME/dotfiles/bash/PATH.bash
 source $HOME/dotfiles/bash/aliases.bash
 source $HOME/dotfiles/bash/git_completion.bash
