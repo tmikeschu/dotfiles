@@ -15,3 +15,4 @@ source $HOME/dotfiles/bash/prompt.bash
 source $HOME/dotfiles/bash/fullpath.bash
 source $HOME/dotfiles/bash/2gem.bash
 source $HOME/dotfiles/bash/languages.bash
+source $HOME/dotfiles/bash/clinc.bash

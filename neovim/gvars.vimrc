@@ -26,3 +26,4 @@ if !has('nvim')
 endif
 
 let g:gutentags_ctags_exclude=["node_modules",".git"]
+let g:gutentags_exclude_project_root=['/usr/local', '~/lucida-clinc']

@@ -11,7 +11,6 @@ export PATH="$HOME/bin:$PATH"
 export PATH="$HOME/.linuxbrew/bin:$PATH"
 
 export GOPATH=$HOME/go
-export CLINC_PATH=$HOME/clinc/lucida-clinc
 
 eval "$(rbenv init -)"
 eval "$(nodenv init -)"

@@ -53,3 +53,6 @@ source $HOME/dotfiles/neovim/ale.vimrc
 
 " Files
 set includeexpr=v:fname.'.'
+
+" Tags
+set tags=tags;
