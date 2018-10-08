@@ -56,6 +56,8 @@ NeoBundle 'pbrisbin/vim-mkdir'
 NeoBundle 'sbdchd/neoformat'
 NeoBundle 'wakatime/vim-wakatime'
 NeoBundle 'itchyny/lightline.vim'
+NeoBundle 'mattn/webapi-vim'  
+NeoBundle 'mattn/gist-vim'
 
 " Colors
 NeoBundle 'flazz/vim-colorschemes'
