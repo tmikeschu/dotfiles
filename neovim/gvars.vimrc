@@ -24,3 +24,5 @@ let g:elm_format_autosave = 1
 if !has('nvim')
   let g:go_version_warning = 0
 endif
+
+let g:gutentags_ctags_exclude=["node_modules",".git"]
