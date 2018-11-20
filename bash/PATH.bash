@@ -9,8 +9,10 @@ export PATH="~/bin:$PATH"
 export PATH="$HOME/.cargo/bin:$PATH"
 export PATH="$HOME/bin:$PATH"
 export PATH="$HOME/.linuxbrew/bin:$PATH"
+export PATH="$HOME/.jenv/bin:$PATH"
 
 export GOPATH=$HOME/go
 
 eval "$(rbenv init -)"
 eval "$(nodenv init -)"
+eval "$(jenv init -)"
