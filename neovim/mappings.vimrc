@@ -1,4 +1,5 @@
 let mapleader = " "
+let maplocalleader = ","
 
 " Saving/Closing
 map <leader>s :w<CR>

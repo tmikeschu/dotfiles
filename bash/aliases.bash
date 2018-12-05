@@ -27,6 +27,10 @@ alias clsite="cd ~/clinc/clinc-website/clinc/"
 alias cr='clear & be rspec'
 alias citest='CI=true npm test'
 
+# pg
+alias pg_start="launchctl load ~/Library/LaunchAgents/homebrew.mxcl.postgresql.plist"
+alias pg_stop="launchctl unload ~/Library/LaunchAgents/homebrew.mxcl.postgresql.plist"
+
 # Chrome shortcuts
 alias rails_guide="open http://guides.rubyonrails.org/index.html"
 alias ruby_docs="open http://ruby-doc.org/"
