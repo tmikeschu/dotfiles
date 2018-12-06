@@ -29,3 +29,8 @@ function dnpm() {
     docker cp lucidaclinc_admin-console-server_1:/usr/local/lucida-clinc/web/adminconsole/package.json $CLINC_PATH/web/adminconsole/package.json
     docker cp lucidaclinc_admin-console-server_1:/usr/local/lucida-clinc/web/adminconsole/package-lock.json $CLINC_PATH/web/adminconsole/package-lock.json
 }
+
+alias dc='docker-compose'
+alias dcu='dc up -d'
+alias dcd='dc down'
+alias dcl='dc logs -f admin-console-server'

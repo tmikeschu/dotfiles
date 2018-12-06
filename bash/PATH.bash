@@ -11,6 +11,7 @@ export PATH="$HOME/bin:$PATH"
 export PATH="$HOME/.linuxbrew/bin:$PATH"
 export PATH="$HOME/.jenv/bin:$PATH"
 
+export PYTHONPATH="/home/$USER/lucida-clinc"
 export GOPATH=$HOME/go
 
 eval "$(rbenv init -)"
