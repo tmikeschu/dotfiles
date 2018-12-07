@@ -15,6 +15,17 @@ export PATH="/home/ubuntu/.linuxbrew/bin:$PATH"
 export PYTHONPATH="/home/$USER/lucida-clinc"
 export GOPATH=$HOME/go
 
-eval "$(rbenv init -)"
-eval "$(nodenv init -)"
-eval "$(jenv init -)"
+if hash rebenv 2>/dev/null
+then
+  eval "$(rbenv init -)"
+fi
+
+if hash nodenv 2>/dev/null
+then
+  eval "$(nodenv init -)"
+fi
+
+if hash jenv 2>/dev/null
+then
+  eval "$(jenv init -)"
+fi
