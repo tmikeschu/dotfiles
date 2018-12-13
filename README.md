@@ -14,3 +14,18 @@ ln -s ~/dotfiles/.<dotfile> ~/.<dotfile>
 
 ln -s ~/dotfiles/.vimrc ~/.vimrc
 ```
+
+## Symbolic Links
+
+|symbol|source|
+|---|---|
+|`~/.bash_profile@`|`~/dotfiles/.bash_profile`|
+|`~/.bashrc@`|`~/dotfiles/.bash_profile`|
+|`~/.config/nvim@`|`~/.vim`|
+|`~/.git-completion.bash@`|`~/dotfiles/.git-completion.bash`|
+|`~/.gvimrc@`|`~/dotfiles/.vimrc`|
+|`~/.inputrc@`|`~/dotfiles/.inputrc `|
+|`~/.set-defaults@`|`~/dotfiles/.set-defaults`|
+|`~/.vim/ftplugin@`|`~/dotfiles/neovim/ftplugin`|
+|`~/.vim/init.vim@`|`~/dotfiles/.vimrc`|
+|`~/.vimrc@`|`~/dotfiles/.vimrc`|
