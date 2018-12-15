@@ -19,13 +19,21 @@ ln -s ~/dotfiles/.vimrc ~/.vimrc
 
 |symbol|source|
 |---|---|
-|`~/.bash_profile@`|`~/dotfiles/.bash_profile`|
-|`~/.bashrc@`|`~/dotfiles/.bash_profile`|
-|`~/.config/nvim@`|`~/.vim`|
-|`~/.git-completion.bash@`|`~/dotfiles/.git-completion.bash`|
-|`~/.gvimrc@`|`~/dotfiles/.vimrc`|
-|`~/.inputrc@`|`~/dotfiles/.inputrc `|
-|`~/.set-defaults@`|`~/dotfiles/.set-defaults`|
-|`~/.vim/ftplugin@`|`~/dotfiles/neovim/ftplugin`|
-|`~/.vim/init.vim@`|`~/dotfiles/.vimrc`|
-|`~/.vimrc@`|`~/dotfiles/.vimrc`|
+|`~/.bash_profile`|`~/dotfiles/.bash_profile`|
+|`~/.bashrc`|`~/dotfiles/.bash_profile`|
+|`~/.config/nvim`|`~/.vim`|
+|`~/.git-completion.bash`|`~/dotfiles/.git-completion.bash`|
+|`~/.gvimrc`|`~/dotfiles/.vimrc`|
+|`~/.inputrc`|`~/dotfiles/.inputrc `|
+|`~/.set-defaults`|`~/dotfiles/.set-defaults`|
+|`~/.vim/ftplugin`|`~/dotfiles/neovim/ftplugin`|
+|`~/.vim/init.vim`|`~/dotfiles/.vimrc`|
+|`~/.vimrc`|`~/dotfiles/.vimrc`|
+
+If you have ruby installed, you can run the `make_sym_links.rb` executable.
+From the command line:
+
+```
+chmod u+x make_sym_links.rb
+./make_sym_links.rb
+```
