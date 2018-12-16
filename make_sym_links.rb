@@ -19,6 +19,7 @@ links = {
   "~/.vim" => "~/dotfiles/neovim/ftplugin",
   "~/.vim/init.vim" => "~/dotfiles/.vimrc",
   "~/.vimrc" => "~/dotfiles/.vimrc",
+  "~/.hyper.js" => "~/dotfiles/.hyper.js",
 }
 
 links.each do |new, old|
