@@ -15,7 +15,7 @@ export PATH="/home/ubuntu/.linuxbrew/bin:$PATH"
 export PYTHONPATH="/home/$USER/lucida-clinc"
 export GOPATH=$HOME/go
 
-if hash rebenv 2>/dev/null
+if hash rbenv 2>/dev/null
 then
   eval "$(rbenv init -)"
 fi
