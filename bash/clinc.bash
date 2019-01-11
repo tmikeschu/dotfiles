@@ -1,3 +1,6 @@
+export PYTHONPATH="/home/$USER/lucida-clinc"
+export CLINC_PATH="/home/$USER/lucida-clinc"
+
 # socks on
 function sockson() {
   networksetup -setsocksfirewallproxy Wi-fi localhost 5000
