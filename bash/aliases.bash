@@ -16,13 +16,6 @@ alias planck="cd ~/qmk_firmware/keyboards/planck/keymaps/tmikeschu/"
 alias kbflash="cd ~/qmk_firmware && make planck/rev5:tmikeschu && make planck/rev5:tmikeschu:dfu"
 alias icloud="cd ~/Library/Mobile\ Documents/com~apple~CloudDocs"
 
-# clinc
-function clplat() {
-  ssh -i ~/.ssh/id_rsa mike.schutte@cdn.clinc.ai
-  echo "me"
-}
-alias clsite="cd ~/clinc/clinc-website/clinc/"
-
 # Testing
 alias cr='clear & be rspec'
 alias citest='CI=true npm test'
