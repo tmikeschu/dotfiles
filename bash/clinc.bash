@@ -42,7 +42,7 @@ function dnpm() {
     echo npm "$@"
     docker exec -it lucida-clinc_admin-console-server_1 npm --prefix=/usr/local/lucida-clinc/web/adminconsole "$@"
     docker cp lucida-clinc_admin-console-server_1:/usr/local/lucida-clinc/web/adminconsole/package.json $CLINC_PATH/web/adminconsole/package.json
-    docker cp lucida=clinc_admin-console-server_1:/usr/local/lucida-clinc/web/adminconsole/package-lock.json $CLINC_PATH/web/adminconsole/package-lock.json
+    docker cp lucida-clinc_admin-console-server_1:/usr/local/lucida-clinc/web/adminconsole/package-lock.json $CLINC_PATH/web/adminconsole/package-lock.json
 }
 
 
