@@ -1,8 +1,14 @@
 # socks on
-alias sockson="networksetup -setsocksfirewallproxy \"Wi-fi\" localhost 5000"
+function sockson() {
+  networksetup -setsocksfirewallproxy Wi-fi localhost 5000
+  networksetup -setsocksfirewallproxystate Wi-fi on
+}
 
 # socks off
-alias socksoff="networksetup -setsocksfirewallproxy \"Wi-fi\" off"
+function socksoff() {
+  networksetup -setsocksfirewallproxy Wi-fi "" ""
+  networksetup -setsocksfirewallproxystate Wi-fi off
+}
 
 function clplat() {
   ssh -i ~/.ssh/id_rsa mike.schutte@cdn.clinc.ai
