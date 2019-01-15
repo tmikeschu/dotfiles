@@ -8,7 +8,7 @@ filetype plugin indent on
 
 
 " Color
-colorscheme gruvbox
+colorscheme nord
 set background=dark
 
 " Tabs/Backspace
