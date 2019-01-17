@@ -8,7 +8,7 @@ filetype plugin indent on
 
 
 " Color
-colorscheme nord
+colorscheme dracula
 set background=dark
 
 " Tabs/Backspace
