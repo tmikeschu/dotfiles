@@ -65,6 +65,7 @@ NeoBundle 'flazz/vim-colorschemes'
 NeoBundle 'morhetz/gruvbox'
 NeoBundle 'chrisbra/Colorizer'
 NeoBundle 'arcticicestudio/nord-vim'
+NeoBundle 'dracula/vim'
 
 call neobundle#end()
 
