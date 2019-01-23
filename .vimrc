@@ -1,4 +1,3 @@
-source $HOME/dotfiles/neovim/mappings.vimrc
 source $HOME/dotfiles/neovim/bundles.vimrc
 source $HOME/dotfiles/neovim/commands.vimrc
 source $HOME/dotfiles/neovim/gvars.vimrc
