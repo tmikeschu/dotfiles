@@ -47,9 +47,9 @@ alias django-logs='tail -f /var/log/lucida/apache2/error.log'
 
 # run npm commands on the admin console container
 function dnpm() {
-    docker cp $CLINC_PATH/web/adminconsole/.eslintignore lucidaclinc_admin-console-server_1:/usr/local/lucida-clinc/web/adminconsole/.eslintignore
-    docker cp $CLINC_PATH/web/adminconsole/.eslintrc.json lucidaclinc_admin-console-server_1:/usr/local/lucida-clinc/web/adminconsole/.eslintrc.json
-    docker cp $CLINC_PATH/web/adminconsole/package.json lucidaclinc_admin-console-server_1:/usr/local/lucida-clinc/web/adminconsole/package.json
+    docker cp $CLINC_PATH/web/adminconsole/.eslintignore lucida-clinc_admin-console-server_1:/usr/local/lucida-clinc/web/adminconsole/.eslintignore
+    docker cp $CLINC_PATH/web/adminconsole/.eslintrc.json lucida-clinc_admin-console-server_1:/usr/local/lucida-clinc/web/adminconsole/.eslintrc.json
+    docker cp $CLINC_PATH/web/adminconsole/package.json lucida-clinc_admin-console-server_1:/usr/local/lucida-clinc/web/adminconsole/package.json
     echo npm "$@"
     docker exec -it lucida-clinc_admin-console-server_1 npm --prefix=/usr/local/lucida-clinc/web/adminconsole "$@"
     docker cp lucida-clinc_admin-console-server_1:/usr/local/lucida-clinc/web/adminconsole/package.json $CLINC_PATH/web/adminconsole/package.json
