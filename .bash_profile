@@ -1,5 +1,3 @@
-echo "Hello, Mike"
-
 export HISTCONTROL=erasedups
 export EDITOR=nvim
 
