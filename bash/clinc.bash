@@ -3,7 +3,7 @@ export CLINC_PATH="/home/$USER/lucida-clinc"
 
 # socks on
 function sockson() {
-  networksetup -setsocksfirewallproxy Wi-fi localhost 5000
+  networksetup -setsocksfirewallproxy Wi-fi 127.0.0.1 5000
   networksetup -setsocksfirewallproxystate Wi-fi on
 }
 
@@ -17,7 +17,7 @@ function clplat() {
   ssh -i ~/.ssh/id_rsa mike.schutte@cdn.clinc.ai
 }
 function clsocks() {
-  ssh -D 5000 mike.schutte@cdn.clinc.ai
+  ssh -D 5000 mike.schutte@cdn.clinc.ai -q
 }
 alias clsite="cd ~/clinc/clinc-website/clinc/"
 
