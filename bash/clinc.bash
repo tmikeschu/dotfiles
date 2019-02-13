@@ -15,7 +15,7 @@ function socksoff() {
 }
 
 function clplat() {
-  ssh -i ~/.ssh/id_rsa mike.schutte@cdn.clinc.ai
+  ssh -i ~/.ssh/id_rsa -J mike.schutte@cdn.clinc.ai mike.schutte@himalayas
 }
 function clsocks() {
   ssh -J mike.schutte@cdn.clinc.ai mike.schutte@himalayas -q
