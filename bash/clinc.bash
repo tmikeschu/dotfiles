@@ -15,10 +15,7 @@ function socksoff() {
 }
 
 function clplat() {
-  ssh -i ~/.ssh/id_rsa -J mike.schutte@cdn.clinc.ai mike.schutte@himalayas
-}
-function clsocks() {
-  ssh -J mike.schutte@cdn.clinc.ai mike.schutte@himalayas -q
+  ssh -J mike.schutte@cdn.clinc.ai mike.schutte@himalayas -q 
 }
 alias clsite="cd ~/clinc/clinc-website/clinc/"
 
