@@ -18,6 +18,8 @@ function clplat() {
   ssh -J mike.schutte@cdn.clinc.ai mike.schutte@himalayas -q 
 }
 alias clsite="cd ~/clinc/clinc-website/clinc/"
+alias clogger="tail -f /var/log/lucida/logdata/logger.log"
+alias clapache="tail -f /var/log/lucida/logdata/apache_error.log"
 
 # clean all persistence so that next time we do `docker-compose up -d` everything will be clean
 alias clean_persist='sudo rm -rf /var/log/lucida/lib/mysql/ && sudo rm -rf /var/log/lucida/files/ && sudo mkdir /var/log/lucida/files && sudo chmod 777 /var/log/lucida/files'
