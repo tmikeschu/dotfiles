@@ -13,7 +13,8 @@ alias vimrc="nvim ~/dotfiles/.vimrc"
 alias dotfiles="cd ~/dotfiles"
 alias gocode="cd ~/go/src/github.com"
 alias planck="cd ~/qmk_firmware/keyboards/planck/keymaps/tmikeschu/"
-alias kbflash="cd ~/qmk_firmware && make planck/rev5:tmikeschu && make planck/rev5:tmikeschu:dfu"
+alias kbflashplanck="cd ~/qmk && make planck/rev5:default && make planck/rev5:default:dfu"
+alias kbflashpre="cd ~/qmk && make preonic/rev3:default && make preonic/rev3:default:dfu"
 alias icloud="cd ~/Library/Mobile\ Documents/com~apple~CloudDocs"
 
 # Testing

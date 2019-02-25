@@ -14,4 +14,5 @@ source $HOME/dotfiles/bash/fullpath.bash
 source $HOME/dotfiles/bash/2gem.bash
 source $HOME/dotfiles/bash/languages.bash
 source $HOME/dotfiles/bash/clinc.bash
+source $HOME/qmk_utils/activate_msys2.sh
 PYTHONPATH="/home/$USER/lucida-clinc"
