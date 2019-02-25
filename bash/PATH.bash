@@ -1,4 +1,6 @@
+export GOPATH=$HOME/go/
 export PATH="/usr/local/bin:$PATH"
+export PATH="$HOME/.local/bin:$PATH"
 export PATH="/usr/local/sbin:$PATH"
 export PATH=$PATH:$GOPATH/bin
 export PATH="/usr/local/opt/postgresql@9.5/bin:$PATH"
@@ -12,7 +14,6 @@ export PATH="$HOME/.linuxbrew/bin:$PATH"
 export PATH="$HOME/.jenv/bin:$PATH"
 export PATH="/home/ubuntu/.linuxbrew/bin:$PATH"
 
-export GOPATH=$HOME/go
 
 if hash rbenv 2>/dev/null
 then
