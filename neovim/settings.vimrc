@@ -56,3 +56,5 @@ set includeexpr=v:fname.'.'
 
 " Tags
 set tags=tags;
+
+set list listchars=tab:→\ ,trail:-
