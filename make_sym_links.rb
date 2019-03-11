@@ -20,6 +20,7 @@ links = {
   "~/.vim/init.vim" => "~/dotfiles/.vimrc",
   "~/.vimrc" => "~/dotfiles/.vimrc",
   "~/.hyper.js" => "~/dotfiles/.hyper.js",
+  "~/.tmux.conf" => "~/dotfiles/.tmux.conf",
 }
 
 links.each do |new, old|
