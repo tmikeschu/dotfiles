@@ -50,6 +50,7 @@ NeoBundle 'tomlion/vim-solidity'
 NeoBundle 'vim-ruby/vim-ruby'
 NeoBundle 'w0rp/ale'
 NeoBundle 'wellle/targets.vim'
+NeoBundle 'RRethy/vim-hexokinase'
 
 " Tools
 NeoBundle 'kien/ctrlp.vim'
