@@ -1,37 +1,41 @@
 export PROMPT_COMMAND="my_custom_function; $PROMPT_COMMAND"
 
 # Prompt
-  function parse_git_branch {
-    branch=`git rev-parse --abbrev-ref HEAD 2>/dev/null`
-    if [ "HEAD" = "$branch" ]; then
-      echo "(no branch)"
-    else
-      echo "$branch"
-    fi
-  }
+function parse_git_branch {
+  branch=`git rev-parse --abbrev-ref HEAD 2>/dev/null`
+  if [ "HEAD" = "$branch" ]; then
+    echo "(no branch)"
+  else
+    echo "$branch"
+  fi
+}
 
-  function prompt_segment {
-    # for colours: http://en.wikipedia.org/wiki/ANSI_escape_code#Colors
-    # change the 37 to change the foreground
-    # change the 45 to change the background
-    if [[ ! -z "$1" ]]; then
-      echo "\[\033[${2:-32};49m\]${1}\[\033[0m\]"
-    fi
-  }
+function prompt_segment {
+  # for colours: http://en.wikipedia.org/wiki/ANSI_escape_code#Colors
+  # change the 37 to change the foreground
+  # change the 45 to change the background
+  if [[ ! -z "$1" ]]; then
+    # ----------------color
+    # ----------------vv---
+    echo "\[\033[${2:-93};49m\]${1}\[\033[0m\]"
+  fi
+}
 
-  function build_mah_prompt {
-    # cwd
-    ps1="$(prompt_segment "\W")"
+function build_prompt {
+  # cwd
+  ps1="$(prompt_segment "\W")"
 
-    git_branch=`parse_git_branch`
-    if [[ ! -z "$git_branch" ]]
-    then
-      ps1="${ps1} ∆|• $(prompt_segment "$git_branch " 94)🦕"
-    fi
+  git_branch=`parse_git_branch`
+  if [[ ! -z "$git_branch" ]]
+  then
+    # ----------------------------------------------color
+    # ----------------------------------------------vv---
+    ps1="${ps1} ∆|• $(prompt_segment "$git_branch " 91)🐐"
+  fi
 
-    ps1="${ps1}\nλ "
+  ps1="${ps1}\nλ "
 
-    PS1="$ps1"
-  }
+  PS1="$ps1"
+}
 
-  PROMPT_COMMAND='build_mah_prompt'
+PROMPT_COMMAND='build_prompt'
