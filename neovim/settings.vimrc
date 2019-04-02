@@ -26,6 +26,7 @@ set breakindent
 set showbreak=\\\\\\\\\\\\\\\
 set lbr
 set smartindent
+set list listchars=tab:→\ ,trail:·
 
 " Search
 set nohlsearch
@@ -37,7 +38,6 @@ set gdefault
 if has('nvim')
   au TermOpen * setlocal nonumber norelativenumber
 endif
-
 
 " Splits
 set splitright
@@ -57,4 +57,5 @@ set includeexpr=v:fname.'.'
 " Tags
 set tags=tags;
 
-set list listchars=tab:→\ ,trail:·
+" Syntax
+autocmd FileType vue syntax sync fromstart
