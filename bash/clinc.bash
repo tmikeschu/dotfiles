@@ -15,8 +15,10 @@ function socksoff() {
 }
 
 function clplat() {
-  ssh -J mike.schutte@cdn.clinc.ai mike.schutte@himalayas -q -t tmux attach-session
+  ssh -J mike.schutte@cdn.clinc.ai mike.schutte@himalayas -q
 }
+
+alias clcode="tmux a -t schutte"
 alias clsite="cd ~/clinc/clinc-website/clinc/"
 alias clogger="tail -f /var/log/lucida/logdata/logger.log"
 alias clapache="tail -f /var/log/lucida/logdata/apache_error.log"
