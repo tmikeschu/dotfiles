@@ -3,3 +3,5 @@ let g:ale_lint_on_enter = 0
 let g:ale_fix_on_save = 1
 let g:ale_javascript_prettier_use_local_config = 1
 let g:ale_open_list = 1
+let g:ale_python_pylint_change_directory = 0
+let g:ale_python_pylint_options = '--rcfile $CLINC_PATH/.pylintrc'
