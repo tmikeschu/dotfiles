@@ -23,6 +23,7 @@ alias clsite="cd ~/clinc/clinc-website/clinc/"
 alias clogger="tail -f /var/log/lucida/logdata/logger.log"
 alias clapache="tail -f /var/log/lucida/logdata/apache_error.log"
 alias django_test='docker exec -it lucida-clinc_clinc-api-server_1 ./clincapi/manage.py test --keepdb --verbosity 3'
+alias django_test_newdb='docker exec -it lucida-clinc_clinc-api-server_1 ./clincapi/manage.py test --verbosity 3'
 alias wsgi='docker exec lucidaclinc_clinc-api-server_1 touch ./../clincapi/common/wsgi.py'
 
 
