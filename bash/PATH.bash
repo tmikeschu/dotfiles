@@ -13,6 +13,7 @@ export PATH="$HOME/bin:$PATH"
 export PATH="$HOME/.linuxbrew/bin:$PATH"
 export PATH="$HOME/.jenv/bin:$PATH"
 export PATH="/home/ubuntu/.linuxbrew/bin:$PATH"
+export PATH="$HOME/.cargo/bin:$PATH"
 
 
 if hash rbenv 2>/dev/null
