@@ -19,5 +19,3 @@ source $HOME/dotfiles/bash/2gem.bash
 source $HOME/dotfiles/bash/languages.bash
 source $HOME/dotfiles/bash/serverless.bash
 include $HOME/qmk_utils/activate_msys2.sh
-
-export PATH="$HOME/.cargo/bin:$PATH"
