@@ -62,6 +62,7 @@ NeoBundle 'wakatime/vim-wakatime'
 NeoBundle 'itchyny/lightline.vim'
 NeoBundle 'mattn/webapi-vim'  
 NeoBundle 'mattn/gist-vim'
+NeoBundle 'editorconfig/editorconfig-vim'
 
 " Colors
 NeoBundle 'flazz/vim-colorschemes'
