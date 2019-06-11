@@ -37,3 +37,7 @@ From the command line:
 chmod u+x make_sym_links.rb
 ./make_sym_links.rb
 ```
+
+## ENV Secrets
+
+Sensitive env variables can be set in `.env.bash`
