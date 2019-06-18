@@ -13,7 +13,7 @@ module.exports = {
 
     // font family with optional fallbacks
     fontFamily:
-      '"Fira Code", "DejaVu Sans Mono", Consolas, "Lucida Console", monospace',
+      '"NanumGothicCoding", "DejaVu Sans Mono", Consolas, "Lucida Console", monospace',
 
     // default font weight: 'normal' or 'bold'
     fontWeight: "normal",
@@ -148,5 +148,10 @@ module.exports = {
   keymaps: {
     // Example
     // 'window:devtools': 'cmd+alt+o',
-  }
+  },
+  termCSS: `
+    x-screen x-row {
+      font-variant-ligatures: initial;
+    }
+  `,
 };
