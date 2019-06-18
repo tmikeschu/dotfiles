@@ -30,7 +30,7 @@ function build_prompt {
   then
     # ----------------------------------------------color
     # ----------------------------------------------vv---
-    ps1="${ps1} ∆|• $(prompt_segment "$git_branch " 91)🐐"
+    ps1="${ps1} :: $(prompt_segment "$git_branch " 91)"
   fi
 
   ps1="${ps1}\nλ "
