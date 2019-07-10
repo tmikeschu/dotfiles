@@ -48,6 +48,7 @@ alias gremote='git remote'
 alias grefresh='getch && grebase && bundle && yarn install && rails db:{migrate,test:prepare}'
 alias gash='git stash'
 alias gatswhatisaid='git commit --amend --no-edit'
+alias pr='hub pull-request'
 
 # fancy ls command
 # -l  long format
