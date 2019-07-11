@@ -13,6 +13,7 @@ export PATH="$HOME/bin:$PATH"
 export PATH="$HOME/.linuxbrew/bin:$PATH"
 export PATH="$HOME/.jenv/bin:$PATH"
 export PATH="/home/ubuntu/.linuxbrew/bin:$PATH"
+export TERM="xterm-256color-italic"
 # Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
 export PATH="$PATH:$HOME/.rvm/bin"
 export NVM_DIR="$HOME/.nvm"
