@@ -30,6 +30,7 @@ set showbreak=\\\\\\\\\\\\\\\
 set lbr
 set smartindent
 set list listchars=tab:→\ ,trail:·
+set updatetime=100
 
 " Search
 set nohlsearch
