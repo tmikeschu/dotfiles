@@ -36,6 +36,7 @@ NeoBundle 'leafgarland/typescript-vim'
 NeoBundle 'mxw/vim-jsx'
 NeoBundle 'othree/html5.vim'
 NeoBundle 'pangloss/vim-javascript'
+NeoBundle 'peitalin/vim-jsx-typescript'
 NeoBundle 'mustache/vim-mustache-handlebars'
 NeoBundle 'posva/vim-vue'
 NeoBundle 'rhysd/vim-crystal'
@@ -64,6 +65,18 @@ NeoBundle 'wellle/targets.vim'
 " Colors
 NeoBundle 'arcticicestudio/nord-vim'
 NeoBundle 'morhetz/gruvbox'
+
+NeoBundle 'Shougo/vimproc.vim', {
+\ 'build' : {
+\     'windows' : 'tools\\update-dll-mingw',
+\     'cygwin' : 'make -f make_cygwin.mak',
+\     'mac' : 'make -f make_mac.mak',
+\     'linux' : 'make',
+\     'unix' : 'gmake',
+\    },
+\ }
+
+NeoBundle 'Quramy/tsuquyomi'
 
 call neobundle#end()
 

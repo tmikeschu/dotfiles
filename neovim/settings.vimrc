@@ -63,3 +63,4 @@ set tags=tags;
 
 " Syntax
 autocmd FileType vue syntax sync fromstart
+autocmd FileType tsx syntax sync fromstart
