@@ -65,6 +65,7 @@ NeoBundle 'wellle/targets.vim'
 " Colors
 NeoBundle 'arcticicestudio/nord-vim'
 NeoBundle 'morhetz/gruvbox'
+NeoBundle 'mhinz/vim-startify'
 
 NeoBundle 'Shougo/vimproc.vim', {
 \ 'build' : {
