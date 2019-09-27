@@ -48,6 +48,7 @@ NeoBundle 'thoughtbot/vim-rspec'
 NeoBundle 'tomlion/vim-solidity'
 NeoBundle 'vim-ruby/vim-ruby'
 NeoBundle 'rust-lang/rust.vim'
+NeoBundle 'neoclide/coc.nvim', 'release', { 'build': { 'others': 'git checkout release' } }
 
 " Tools
 NeoBundle 'editorconfig/editorconfig-vim'
