@@ -13,6 +13,9 @@ export PATH="$HOME/bin:$PATH"
 export PATH="$HOME/.linuxbrew/bin:$PATH"
 export PATH="$HOME/.jenv/bin:$PATH"
 export PATH="/home/ubuntu/.linuxbrew/bin:$PATH"
+export ANDROID_HOME=/Users/tmikeschutte/Library/Android/sdk
+export PATH=$ANDROID_HOME/platform-tools:$PATH
+export PATH=$ANDROID_HOME/tools:$PATH
 export TERM="xterm-256color-italic"
 # Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
 export PATH="$PATH:$HOME/.rvm/bin"
