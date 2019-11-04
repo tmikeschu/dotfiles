@@ -16,7 +16,6 @@ export PATH="/home/ubuntu/.linuxbrew/bin:$PATH"
 export ANDROID_HOME=/Users/tmikeschutte/Library/Android/sdk
 export PATH=$ANDROID_HOME/platform-tools:$PATH
 export PATH=$ANDROID_HOME/tools:$PATH
-export TERM="xterm-256color-italic"
 # Setting PATH for Python 3.7
 # The original version is saved in .bash_profile.pysave
 PATH="/Library/Frameworks/Python.framework/Versions/3.7/bin:${PATH}"
