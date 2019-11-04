@@ -54,3 +54,4 @@ tic -x ~/dotfiles/tmux-256color.terminfo
 * [tmux nvim true color](https://jdhao.github.io/2018/10/19/tmux_nvim_true_color/)
 * [iterm tmux italics](https://medium.com/@dubistkomisch/how-to-actually-get-italics-and-true-colour-to-work-in-iterm-tmux-vim-9ebe55ebc2be)
 * [auto rename tmux window](https://that.guru/blog/automatically-set-tmux-window-name/)
+* [.tigrc config](https://github.com/jonas/tig/blob/master/doc/tigrc.5.adoc#color-command)
