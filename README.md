@@ -41,3 +41,10 @@ chmod u+x make_sym_links.rb
 ## ENV Secrets
 
 Sensitive env variables can be set in `.env.bash`
+
+## tmux setup
+
+```
+tic -x ~/dotfiles/xterm-256color-italic.terminfo
+tic -x ~/dotfiles/tmux-256color.terminfo
+```
