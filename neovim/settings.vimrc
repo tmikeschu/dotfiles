@@ -8,11 +8,13 @@ filetype plugin indent on
 
 
 " Color
-let g:gruvbox_italic=1
-colorscheme gruvbox
+if (has("termguicolors"))
+ set termguicolors
+endif
+
+colorscheme night-owl
 set background=dark
 highlight Comment cterm=italic
-
 
 " Tabs/Backspace
 set shiftwidth=2

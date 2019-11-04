@@ -62,11 +62,14 @@ NeoBundle 'segeljakt/vim-silicon'
 NeoBundle 'w0rp/ale'
 NeoBundle 'wakatime/vim-wakatime'
 NeoBundle 'wellle/targets.vim'
+NeoBundle 'mhinz/vim-startify'
 
 " Colors
 NeoBundle 'arcticicestudio/nord-vim'
 NeoBundle 'morhetz/gruvbox'
-NeoBundle 'mhinz/vim-startify'
+NeoBundle 'haishanh/night-owl.vim'
+NeoBundle 'mhartington/oceanic-next'
+NeoBundle 'iCyMind/NeoSolarized'
 
 call neobundle#end()
 
