@@ -48,3 +48,8 @@ Sensitive env variables can be set in `.env.bash`
 tic -x ~/dotfiles/xterm-256color-italic.terminfo
 tic -x ~/dotfiles/tmux-256color.terminfo
 ```
+
+## Links that were really helpful at one point in a time of despair
+
+* [tmux nvim true color](https://jdhao.github.io/2018/10/19/tmux_nvim_true_color/)
+* [iterm tmux italics](https://medium.com/@dubistkomisch/how-to-actually-get-italics-and-true-colour-to-work-in-iterm-tmux-vim-9ebe55ebc2be)
