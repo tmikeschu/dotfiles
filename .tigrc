@@ -2,3 +2,4 @@ color diff-del 1 0
 color diff-add 6 0
 color author 6 0
 color cursor 0 11
+set editor-line-number = no
