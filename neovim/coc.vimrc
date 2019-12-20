@@ -1,5 +1,9 @@
+let mapleader = " "
+
 nmap <leader>rn  <Plug>(coc-rename)
 inoremap <silent><expr> <c-space> coc#refresh()
+
+nmap <leader>l :CocList files<CR>
 
 nnoremap <silent> K :call <SID>show_documentation()<CR>
 function! s:show_documentation()
