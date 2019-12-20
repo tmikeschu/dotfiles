@@ -65,3 +65,5 @@ alias ls='ls -GFh'
 
 # Shortcut for bundle exec
 alias be="bundle exec"
+
+alias dc="docker-compose"
