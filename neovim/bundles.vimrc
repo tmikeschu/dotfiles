@@ -53,7 +53,6 @@ NeoBundle 'neoclide/coc.nvim', 'release', { 'build': { 'others': 'git checkout r
 " Tools
 NeoBundle 'editorconfig/editorconfig-vim'
 NeoBundle 'itchyny/lightline.vim'
-NeoBundle 'kien/ctrlp.vim'
 NeoBundle 'ludovicchabant/vim-gutentags'
 NeoBundle 'mattn/gist-vim'
 NeoBundle 'mattn/webapi-vim'  
