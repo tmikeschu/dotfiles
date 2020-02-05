@@ -68,5 +68,6 @@ set tags=tags;
 " Syntax
 autocmd FileType vue syntax sync fromstart
 autocmd FileType tsx syntax sync fromstart
+autocmd FileType ts syntax sync fromstart
 
 au BufNewFile,BufRead Jenkinsfile setf groovy
