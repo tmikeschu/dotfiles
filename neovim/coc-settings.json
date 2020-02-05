@@ -10,5 +10,7 @@
     "javascriptreact",
     "typescript.tsx",
     "graphql"
-  ]
+  ],
+  "git.addGBlameToBufferVar": true,
+  "git.addGBlameToVirtualText": true
 }
