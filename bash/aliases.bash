@@ -67,3 +67,10 @@ alias ls='ls -GFh'
 alias be="bundle exec"
 
 alias dc="docker-compose"
+function dbu(){
+  docker-compose down -v && docker-compose build && docker-compose up
+}
+
+function dcbu(){
+  docker-compose down -v && chewbacca compose build && docker-compose up
+}
