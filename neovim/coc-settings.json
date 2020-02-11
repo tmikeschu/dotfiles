@@ -9,7 +9,10 @@
     "json",
     "javascriptreact",
     "typescript.tsx",
-    "graphql"
+    "graphql",
+    "css",
+    "markdown",
+    "md"
   ],
   "git.addGBlameToBufferVar": true,
   "git.addGBlameToVirtualText": true

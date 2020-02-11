@@ -30,7 +30,7 @@ set ruler
 set number
 set relativenumber
 set breakindent
-set showbreak=\\\\\\\\\\\\\\\
+set showbreak=>>>
 set lbr
 set smartindent
 set list listchars=tab:→\ ,trail:·
