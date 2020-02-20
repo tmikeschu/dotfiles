@@ -14,7 +14,7 @@ if (has("termguicolors"))
   set termguicolors
 endif
 
-colorscheme night-owl
+colorscheme gruvbox
 set background=dark
 highlight Comment cterm=italic
 
