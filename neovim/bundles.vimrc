@@ -58,11 +58,12 @@ NeoBundle 'ludovicchabant/vim-gutentags'
 NeoBundle 'mattn/gist-vim'
 NeoBundle 'mattn/webapi-vim'  
 NeoBundle 'maximbaz/lightline-ale'
+NeoBundle 'mhinz/vim-startify'
 NeoBundle 'segeljakt/vim-silicon'
 NeoBundle 'w0rp/ale'
 NeoBundle 'wakatime/vim-wakatime'
+NeoBundle 'wellle/context.vim'
 NeoBundle 'wellle/targets.vim'
-NeoBundle 'mhinz/vim-startify'
 
 " Colors
 NeoBundle 'arcticicestudio/nord-vim'
