@@ -1,5 +1,6 @@
 if exists('g:vscode')
     " VSCode extension
+  source $HOME/dotfiles/neovim/vscode.vimrc
 else
   source $HOME/dotfiles/neovim/bundles.vimrc
   source $HOME/dotfiles/neovim/commands.vimrc
