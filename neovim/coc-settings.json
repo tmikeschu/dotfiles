@@ -12,7 +12,8 @@
     "graphql",
     "css",
     "markdown",
-    "md"
+    "md",
+    "svelte"
   ],
   "git.addGBlameToBufferVar": true,
   "git.addGBlameToVirtualText": true
