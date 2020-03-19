@@ -14,7 +14,7 @@ if (has("termguicolors"))
   set termguicolors
 endif
 
-colorscheme gruvbox
+colorscheme shades_of_purple
 set background=dark
 highlight Comment cterm=italic
 

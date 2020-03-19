@@ -67,11 +67,12 @@ NeoBundle 'wellle/context.vim'
 NeoBundle 'wellle/targets.vim'
 
 " Colors
+NeoBundle 'Rigellute/shades-of-purple.vim'
 NeoBundle 'arcticicestudio/nord-vim'
-NeoBundle 'morhetz/gruvbox'
 NeoBundle 'haishanh/night-owl.vim'
-NeoBundle 'mhartington/oceanic-next'
 NeoBundle 'iCyMind/NeoSolarized'
+NeoBundle 'mhartington/oceanic-next'
+NeoBundle 'morhetz/gruvbox'
 
 call neobundle#end()
 

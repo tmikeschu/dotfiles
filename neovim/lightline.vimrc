@@ -1,5 +1,6 @@
+let g:shades_of_purple_lightline = 1
 let g:lightline = {
-      \ 'colorscheme': 'gruvbox',
+      \ 'colorscheme': 'shades_of_purple',
       \ 'active': {
       \   'left': [ [ 'mode', 'paste' ],
       \             [ 'relativepath', 'modified' ]
