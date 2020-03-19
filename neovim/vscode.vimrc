@@ -3,6 +3,8 @@ nmap gc <Plug>VSCodeCommentary
 omap gc <Plug>VSCodeCommentary
 nmap gcc <Plug>VSCodeCommentaryLine
 
+set nohlsearch
+
 if has('vim_starting')
   set runtimepath+=~/.config/nvim/bundle/neobundle.vim/
   set runtimepath+=~/.config/nvim/
