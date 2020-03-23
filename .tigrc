@@ -1,5 +1,5 @@
-color diff-del 5 default
-color diff-add 10 default
+color diff-del 1 default
+color diff-add 2 default
 color author 6 default
 color date 13 default
 color cursor 0 12
