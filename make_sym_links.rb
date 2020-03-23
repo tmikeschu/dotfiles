@@ -11,6 +11,8 @@ end
 links = {
   "~/.bash_profile" => "~/dotfiles/.bash_profile",
   "~/.bashrc" => "~/dotfiles/.bash_profile",
+  "~/.zshrc" => "~/dotfiles/.zshrc",
+  "~/.tigrc" => "~/dotfiles/.tigrc",
   "~/.config/nvim" => "~/.vim",
   "~/.git-completion.bash" => "~/dotfiles/.git-completion.bash",
   "~/.gvimrc" => "~/dotfiles/.vimrc",
