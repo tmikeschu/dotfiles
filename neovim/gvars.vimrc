@@ -26,3 +26,5 @@ if !has('nvim')
 endif
 
 let g:gutentags_ctags_exclude=["node_modules",".git", "dist", "vendor", "public", "db"]
+
+let g:context_enabled = 0
