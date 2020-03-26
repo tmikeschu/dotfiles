@@ -17,7 +17,6 @@ links = {
   "~/.git-completion.bash" => "~/dotfiles/.git-completion.bash",
   "~/.gvimrc" => "~/dotfiles/.vimrc",
   "~/.inputrc" => "~/dotfiles/.inputrc ",
-  "~/.set-defaults" => "~/dotfiles/.set-defaults",
   "~/.vim" => "~/dotfiles/neovim/ftplugin",
   "~/.vim/init.vim" => "~/dotfiles/.vimrc",
   "~/.vimrc" => "~/dotfiles/.vimrc",

@@ -12,11 +12,6 @@ include () {
     [[ -f "$1" ]] && source "$1"
 }
 
-if [[ $(uname -s) == Darwin ]]
-then
-  source $HOME/.set-defaults
-fi
-
 source $HOME/dotfiles/bash/aliases.bash
 source $HOME/dotfiles/bash/fullpath.bash
 source $HOME/dotfiles/bash/2gem.bash
