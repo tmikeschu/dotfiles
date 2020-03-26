@@ -13,8 +13,21 @@
     "css",
     "markdown",
     "md",
-    "svelte"
+    "svelte",
+    "html"
   ],
   "git.addGBlameToBufferVar": true,
-  "git.addGBlameToVirtualText": true
+  "git.addGBlameToVirtualText": true,
+  "list.source.mru.ignoreGitIgnore": true,
+  "list.source.files.excludePatterns": [
+    "**/node_modules/**/*",
+    "**/node_modules/**/.*",
+    "**/node_modules/**/.*/**",
+    "**/coverage/**/*",
+    "**/coverage/**/.*",
+    "**/coverage/**/.*/**",
+    "**/public/**/*",
+    "**/public/**/.*",
+    "**/public/**/.*/**"
+  ]
 }
