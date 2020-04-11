@@ -5,6 +5,9 @@
 export ZSH="/Users/tmikeschutte/.oh-my-zsh"
 
 export HISTCONTROL=erasedups
+unsetopt inc_append_history
+setopt no_share_history
+unsetopt share_history
 export EDITOR=nvim
 export TERM="xterm-256color"
 
