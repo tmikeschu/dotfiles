@@ -7,3 +7,5 @@
 --exclude=db/*
 --exclude=log/*
 --exclude=build/*
+--exclude=.next/*
+--exclude=.yarn/*
