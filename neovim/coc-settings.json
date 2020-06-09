@@ -18,7 +18,6 @@
   ],
   "git.addGBlameToBufferVar": true,
   "git.addGBlameToVirtualText": true,
-  "list.source.mru.ignoreGitIgnore": true,
   "list.source.files.excludePatterns": [
     "**/node_modules/**/*",
     "**/node_modules/**/.*",
