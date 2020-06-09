@@ -25,6 +25,7 @@ NeoBundle 'tpope/vim-surround.git'
 " Languages / Syntax
 NeoBundle 'ElmCast/elm-vim'
 NeoBundle 'airblade/vim-gitgutter'
+NeoBundle 'burnettk/vim-angular'
 NeoBundle 'cakebaker/scss-syntax.vim'
 NeoBundle 'derekwyatt/vim-scala'
 NeoBundle 'elixir-editors/vim-elixir'
