@@ -16,6 +16,7 @@ alias planck="cd ~/qmk_firmware/keyboards/planck/keymaps/tmikeschu/"
 alias kbflashplanck="cd ~/qmk && make planck/rev5:default && make planck/rev5:default:dfu"
 alias kbflashpre="cd ~/qmk && make preonic/rev3:default && make preonic/rev3:default:dfu"
 alias icloud="cd ~/Library/Mobile\ Documents/com~apple~CloudDocs"
+alias care="cd ~/code/care-exchange/co-care-exchange-client"
 
 # Testing
 alias cr='clear & be rspec'
