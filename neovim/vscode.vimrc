@@ -4,6 +4,9 @@ omap gc <Plug>VSCodeCommentary
 nmap gcc <Plug>VSCodeCommentaryLine
 
 set nohlsearch
+set ignorecase
+set smartcase
+set gdefault
 
 if has('vim_starting')
   set runtimepath+=~/.config/nvim/bundle/neobundle.vim/
