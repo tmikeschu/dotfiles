@@ -70,4 +70,6 @@ autocmd FileType vue syntax sync fromstart
 autocmd FileType tsx syntax sync fromstart
 autocmd FileType ts syntax sync fromstart
 
-au BufNewFile,BufRead Jenkinsfile setf groovy
+au BufNewFile,BufRead Jenkinsfile set ft=groovy
+au BufNewFile,BufRead */nginx.conf.tmpl set ft=nginx
+au BufNewFile,BufRead Dockerfile.* set ft=Dockerfile
