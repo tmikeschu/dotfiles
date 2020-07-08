@@ -25,6 +25,10 @@ include $HOME/qmk_utils/activate_msys2.sh
 source $HOME/dotfiles/bash/PATH.bash
 source $HOME/dotfiles/.env.bash
 
+if [[ -r "$(brew --prefix)/opt/mcfly/mcfly.zsh" ]]; then
+  source "$(brew --prefix)/opt/mcfly/mcfly.zsh"
+fi
+
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
 # a theme from this variable instead of looking in ~/.oh-my-zsh/themes/
