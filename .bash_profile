@@ -16,3 +16,7 @@ source $HOME/dotfiles/bash/ted.bash
 include $HOME/qmk_utils/activate_msys2.sh
 source $HOME/dotfiles/bash/PATH.bash
 source $HOME/dotfiles/.env.bash
+
+if [[ -r "$(brew --prefix)/opt/mcfly/mcfly.bash" ]]; then
+  source "$(brew --prefix)/opt/mcfly/mcfly.bash"
+fi
