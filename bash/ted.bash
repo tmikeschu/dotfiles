@@ -1,7 +1,6 @@
 export PATH="$PATH:${HOME}/code/ted/infrastructure/bin"
 
 alias rvminstall='rvm install `cat .ruby-version`'
-alias ted='cd ~/code/ted'
 alias fomo='cd ~/code/ted/fomoconf'
 alias twt='cd ~/code/ted/twt-checkin'
 alias ems='cd ~/code/ted/ems'
@@ -14,3 +13,7 @@ alias capprod='bundle exec cap production deploy'
 alias chewbupu='chewbacca buildpush'
 alias chewstag='chewbacca deploy -e staging'
 alias chewprod='chewbacca deploy -e production'
+
+function ted() {
+  cd ~/code/ted/$1
+}
