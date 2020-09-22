@@ -76,6 +76,7 @@ NeoBundle 'haishanh/night-owl.vim'
 NeoBundle 'iCyMind/NeoSolarized'
 NeoBundle 'mhartington/oceanic-next'
 NeoBundle 'morhetz/gruvbox'
+NeoBundle 'cocopon/iceberg.vim'
 
 call neobundle#end()
 

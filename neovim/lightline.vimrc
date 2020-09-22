@@ -1,6 +1,6 @@
 let g:shades_of_purple_lightline = 1
 let g:lightline = {
-      \ 'colorscheme': 'nightowl',
+      \ 'colorscheme': 'iceberg',
       \ 'active': {
       \   'left': [ [ 'mode', 'paste' ],
       \             [ 'relativepath', 'modified' ]
