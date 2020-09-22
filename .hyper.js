@@ -9,11 +9,10 @@ module.exports = {
     updateChannel: "stable",
 
     // default font size in pixels for all tabs
-    fontSize: 12,
+    fontSize: 18,
 
     // font family with optional fallbacks
-    fontFamily:
-      '"Dank Mono", Consolas, "Lucida Console", monospace',
+    fontFamily: '"Dank Mono", Consolas, "Lucida Console", monospace',
 
     // default font weight: 'normal' or 'bold'
     fontWeight: "normal",
@@ -138,7 +137,7 @@ module.exports = {
   //   `hyperpower`
   //   `@company/project`
   //   `project#1.0.1`
-  plugins: ["hyperterm-gruvbox-dark", "hyper-font-ligatures"],
+  plugins: ["hyper-font-ligatures", "hyper-iceberg", "hypercwd"],
 
   // in development, you can create a directory under
   // `~/.hyper_plugins/local/` and include it here
@@ -153,5 +152,5 @@ module.exports = {
     x-screen x-row {
       font-variant-ligatures: initial;
     }
-  `,
+  `
 };
