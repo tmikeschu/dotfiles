@@ -1,47 +1,55 @@
-require('keyboard') -- Load Hammerspoon bits from https://github.com/jasonrudolph/keyboard
+-- require('keyboard') -- Load Hammerspoon bits from https://github.com/jasonrudolph/keyboard
 
-function verticalHalf(x)
+function makeMax()
   win = hs.window.focusedWindow()
   f = win:frame()
   screen = win:screen()
-  max = screen:frame()
-
-  f.x = max.x + x
-  f.y = max.y
-  f.w = max.w / 2
-  f.h = max.h
-  win:setFrame(f)
+  return screen:frame()
 end
 
-function horizontalHalf(y)
-  win = hs.window.focusedWindow()
-  f = win:frame()
-  screen = win:screen()
-  max = screen:frame()
-
-  f.x = max.x
-  f.y = max.y + y
-  f.w = max.w
-  f.h = max.h / 2
+function setFrame(x, y, w, h)
+  f.x = x
+  f.y = y
+  f.w = w
+  f.h = h
   win:setFrame(f)
 end
 
 hs.hotkey.bind({"cmd", "alt", "ctrl"}, "Left", function()
-  verticalHalf(0)
+  max = makeMax()
+  setFrame(max.x, max.y, max.w / 2, max.h)
 end)
 
 hs.hotkey.bind({"cmd", "alt", "ctrl"}, "Right", function()
+  win = hs.window.focusedWindow()
+  f = win:frame()
+  screen = win:screen()
   max = screen:frame()
-  verticalHalf(max.w / 2)
+  setFrame(max.x + max.w / 2, max.y, max.w / 2, max.h)
 end)
 
 hs.hotkey.bind({"cmd", "alt", "ctrl"}, "Up", function()
-  horizontalHalf(0)
+  win = hs.window.focusedWindow()
+  f = win:frame()
+  screen = win:screen()
+  max = screen:frame()
+  setFrame(max.x, max.y, max.w, max.h / 2)
 end)
 
 hs.hotkey.bind({"cmd", "alt", "ctrl"}, "Down", function()
+  win = hs.window.focusedWindow()
+  f = win:frame()
+  screen = win:screen()
   max = screen:frame()
-  horizontalHalf(max.h / 2)
+  setFrame(max.x, max.y + max.h / 2, max.w, max.h / 2)
+end)
+
+hs.hotkey.bind({"cmd", "alt", "ctrl"}, "F", function()
+  win = hs.window.focusedWindow()
+  f = win:frame()
+  screen = win:screen()
+  max = screen:frame()
+  setFrame(max.x, max.y, max.w, max.h)
 end)
 
 function reloadConfig(files)
@@ -56,4 +64,5 @@ function reloadConfig(files)
     end
 end
 myWatcher = hs.pathwatcher.new(os.getenv("HOME") .. "/.hammerspoon/", reloadConfig):start()
+myWatcher2 = hs.pathwatcher.new(os.getenv("HOME") .. "/dotfiles/init.lua", reloadConfig):start()
 hs.alert.show("Config loaded")
