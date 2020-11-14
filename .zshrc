@@ -28,7 +28,10 @@ source $HOME/dotfiles/bash/serverless.bash
 source $HOME/dotfiles/bash/ted.bash
 include $HOME/qmk_utils/activate_msys2.sh
 source $HOME/dotfiles/bash/PATH.bash
-source $HOME/dotfiles/.env.bash
+
+if [[ -r "$HOME/dotfiles/.env.bash" ]]; then
+  source $HOME/dotfiles/.env.bash
+fi
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
