@@ -6,13 +6,12 @@ if !exists("g:syntax_on")
 endif
 filetype plugin indent on
 
-
 " Color
-if (has("termguicolors"))
-  let &t_8f="\<Esc>[38;2;%lu;%lu;%lum"
-  let &t_8b="\<Esc>[48;2;%lu;%lu;%lum"
-  set termguicolors
-endif
+" if (has("termguicolors"))
+"   let &t_8f="\<Esc>[38;2;%lu;%lu;%lum"
+"   let &t_8b="\<Esc>[48;2;%lu;%lu;%lum"
+"   set termguicolors
+" endif
 
 colorscheme iceberg
 set background=dark
