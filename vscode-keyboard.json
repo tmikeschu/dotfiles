@@ -1,5 +1,6 @@
 [
   { "key": "ctrl+b t", "command": "workbench.action.terminal.focus" },
+  { "key": "ctrl+b o", "command": "workbench.action.terminal.focus" },
   {
     "key": "ctrl+b o",
     "command": "workbench.action.focusActiveEditorGroup",
@@ -25,5 +26,9 @@
   {
     "key": "ctrl+b s",
     "command": "workbench.action.terminal.split"
+  },
+  {
+    "key": "ctrl+b x",
+    "command": "workbench.action.terminal.kill"
   }
 ]
