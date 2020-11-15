@@ -1,0 +1,29 @@
+[
+  { "key": "ctrl+b t", "command": "workbench.action.terminal.focus" },
+  {
+    "key": "ctrl+b o",
+    "command": "workbench.action.focusActiveEditorGroup",
+    "when": "terminalFocus"
+  },
+  {
+    "key": "ctrl+b o",
+    "command": "workbench.action.focusActiveEditorGroup",
+    "when": "explorerViewletFocus"
+  },
+  {
+    "key": "ctrl+b n",
+    "command": "workbench.action.terminal.focusNext"
+  },
+  {
+    "key": "ctrl+b p",
+    "command": "workbench.action.terminal.focusPrevious"
+  },
+  {
+    "key": "ctrl+b c",
+    "command": "workbench.action.terminal.new"
+  },
+  {
+    "key": "ctrl+b s",
+    "command": "workbench.action.terminal.split"
+  }
+]

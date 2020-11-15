@@ -17,18 +17,19 @@ ln -s ~/dotfiles/.vimrc ~/.vimrc
 
 ## Symbolic Links
 
-| symbol                   | source                            |
-| ------------------------ | --------------------------------- |
-| `~/.bash_profile`        | `~/dotfiles/.bash_profile`        |
-| `~/.bashrc`              | `~/dotfiles/.bash_profile`        |
-| `~/.zshrc`               | `~/dotfiles/.zshrc`               |
-| `~/.config/nvim`         | `~/.vim`                          |
-| `~/.git-completion.bash` | `~/dotfiles/.git-completion.bash` |
-| `~/.gvimrc`              | `~/dotfiles/.vimrc`               |
-| `~/.inputrc`             | `~/dotfiles/.inputrc`             |
-| `~/.vim/ftplugin`        | `~/dotfiles/neovim/ftplugin`      |
-| `~/.vim/init.vim`        | `~/dotfiles/.vimrc`               |
-| `~/.vimrc`               | `~/dotfiles/.vimrc`               |
+| symbol                                                                   | source                             |
+| ------------------------------------------------------------------------ | ---------------------------------- |
+| `~/.bash_profile`                                                        | `~/dotfiles/.bash_profile`         |
+| `~/.bashrc`                                                              | `~/dotfiles/.bash_profile`         |
+| `~/.zshrc`                                                               | `~/dotfiles/.zshrc`                |
+| `~/.config/nvim`                                                         | `~/.vim`                           |
+| `~/.git-completion.bash`                                                 | `~/dotfiles/.git-completion.bash`  |
+| `~/.gvimrc`                                                              | `~/dotfiles/.vimrc`                |
+| `~/.inputrc`                                                             | `~/dotfiles/.inputrc`              |
+| `~/.vim/ftplugin`                                                        | `~/dotfiles/neovim/ftplugin`       |
+| `~/.vim/init.vim`                                                        | `~/dotfiles/.vimrc`                |
+| `~/.vimrc`                                                               | `~/dotfiles/.vimrc`                |
+| `~/Library/Application\ Support/Code\ -\ Insiders/User/keybindings.json` | `~/dotfiles/.keyboard-vscode.json` |
 
 If you have ruby installed, you can run the `make_sym_links.rb` executable.
 From the command line:

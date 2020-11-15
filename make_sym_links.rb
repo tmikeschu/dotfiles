@@ -22,6 +22,7 @@ links = {
   "~/.vimrc" => "~/dotfiles/.vimrc",
   "~/.hyper.js" => "~/dotfiles/.hyper.js",
   "~/.tmux.conf" => "~/dotfiles/.tmux.conf",
+  "~/Library/Application\ Support/Code\ -\ Insiders/User/keybindings.json" => "~/dotfiles/.keyboard-vscode.json"
 }
 
 links.each do |new, old|
