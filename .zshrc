@@ -133,3 +133,6 @@ if [[ -r "$(brew --prefix)/opt/mcfly/mcfly.zsh" ]]; then
 fi
 
 unalias gh
+export PATH="$HOME/.jenv/bin:$PATH"
+eval "$(jenv init -)"
+
