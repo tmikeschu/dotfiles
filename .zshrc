@@ -136,3 +136,6 @@ unalias gh
 export PATH="$HOME/.jenv/bin:$PATH"
 eval "$(jenv init -)"
 
+# fnm
+export PATH=/Users/tmikeschutte/.fnm:$PATH
+eval "`fnm env`"
