@@ -30,5 +30,10 @@
   {
     "key": "ctrl+b x",
     "command": "workbench.action.terminal.kill"
+  },
+  {
+    "key": "ctrl+b r",
+    "command": "workbench.action.terminal.rename",
+    "when": "terminalFocus"
   }
 ]
