@@ -29,7 +29,8 @@ ln -s ~/dotfiles/.vimrc ~/.vimrc
 | `~/.vim/ftplugin`                                                        | `~/dotfiles/neovim/ftplugin`       |
 | `~/.vim/init.vim`                                                        | `~/dotfiles/.vimrc`                |
 | `~/.vimrc`                                                               | `~/dotfiles/.vimrc`                |
-| `~/Library/Application\ Support/Code\ -\ Insiders/User/keybindings.json` | `~/dotfiles/.keyboard-vscode.json` |
+| `~/Library/Application\ Support/Code/User/keybindings.json` | `~/dotfiles/.keyboard-vscode.json` |
+| `/Users/tmikeschutte/Library/Application\ Support/Code/User/settings.json` | `~/dotfiles/.keyboard-vscode.json` |
 
 If you have ruby installed, you can run the `make_sym_links.rb` executable.
 From the command line:
