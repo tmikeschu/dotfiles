@@ -45,5 +45,8 @@
   "vscode-neovim.neovimExecutablePaths.darwin": "/usr/local/bin/nvim",
   "workbench.editor.highlightModifiedTabs": true,
   "editor.lineNumbers": "relative",
-  "git.autofetch": true
+  "git.autofetch": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true
+  }
 }
