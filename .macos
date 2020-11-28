@@ -53,7 +53,7 @@ npm install --global yarn serve diff-so-fancy fkill-cli npm-quick-run \
   semantic-release-cli npm-check-updates chalk
 
 echo "installing apps with brew cask"
-brew install --cask hammerspoon docker alfred \
+brew install --cask hammerspoon docker alfred alacritty \
   google-chrome firefox brave-browser \
   bartender visual-studio-code 1password \
   notion slack zoomus discord \
