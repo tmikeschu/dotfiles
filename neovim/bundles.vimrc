@@ -39,7 +39,7 @@ NeoBundle 'kchmck/vim-coffee-script'
 NeoBundle 'leafgarland/typescript-vim'
 NeoBundle 'mustache/vim-mustache-handlebars'
 NeoBundle 'mxw/vim-jsx'
-NeoBundle 'neoclide/coc.nvim', 'release', { 'build': { 'others': 'git checkout release' } }
+NeoBundle 'neoclide/coc.nvim'
 NeoBundle 'othree/html5.vim'
 NeoBundle 'pangloss/vim-javascript'
 NeoBundle 'peitalin/vim-jsx-typescript'

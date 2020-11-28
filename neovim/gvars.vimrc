@@ -28,3 +28,5 @@ endif
 let g:gutentags_ctags_exclude=["node_modules",".git", "dist", "vendor", "public", "db", ".next", "cypress"]
 
 let g:context_enabled = 0
+
+let g:coc_global_extensions = ['coc-emmet', 'coc-css', 'coc-html', 'coc-json', 'coc-prettier', 'coc-tsserver']
