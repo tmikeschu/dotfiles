@@ -1,0 +1,23 @@
+{
+  "name": "dotfiles",
+  "version": "1.0.0",
+  "description": "![person made of dots throwing dots to dots](https://media.giphy.com/media/3o72F38VEEi1ODPOXm/giphy.gif)",
+  "main": "make_symlinks.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tmikeschu/dotfiles.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tmikeschu/dotfiles/issues"
+  },
+  "homepage": "https://github.com/tmikeschu/dotfiles#readme",
+  "devDependencies": {
+    "chalk": "^4.1.0",
+    "prettier": "^2.2.1"
+  }
+}
