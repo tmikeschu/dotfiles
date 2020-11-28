@@ -1,0 +1,17 @@
+[gpg]
+  program = /usr/local/bin/gpg
+[includeIf "gitdir:~/"]
+  path = ~/dotfiles/.gitconfig-me
+[includeIf "gitdir:~/code/ps/"]
+  path = ~/dotfiles/.gitconfig-ps
+[pager]
+  branch = false
+[filter "lfs"]
+  clean = git-lfs clean --%f
+  smudge = git-lfs smudge --%f
+  process = git-lfs filter-process --%f
+  required = true
+[commit]
+  gpgsign = true
+[core]
+  excludesfile = /Users/tmikeschutte/.gitignore_global
