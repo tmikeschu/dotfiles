@@ -1,7 +1,7 @@
 {
   "files.autoSave": "off",
   "editor.tabSize": 2,
-  "editor.fontFamily": "'Fira Code', 'Source Code Pro', 'Courier New', monospace",
+  "editor.fontFamily": "'JetBrains Mono', 'Source Code Pro', 'Courier New', monospace",
   "terminal.integrated.shellArgs.osx": ["-l"],
   "window.zoomLevel": 1,
   "editor.fontSize": 16,
