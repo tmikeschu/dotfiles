@@ -45,12 +45,12 @@ window:
   #
   # Blank space added around the window in pixels. This padding is scaled
   # by DPI and the specified value is always added at both opposing sides.
-  #padding:
-   x: 16
-   y: 16
+  padding:
+    x: 8
+    y: 8
 
   # Spread additional padding evenly around the terminal content.
-  #dynamic_padding: false
+  # dynamic_padding: true
 
   # Window decorations
   #
@@ -72,13 +72,13 @@ window:
   #
   # Values for `startup_mode` (macOS only):
   #   - SimpleFullscreen
-  #startup_mode: Windowed
+  startup_mode: Fullscreen
 
   # Window title
   #title: Alacritty
 
   # Allow terminal applications to change Alacritty's window title.
-  #dynamic_title: true
+  dynamic_title: true
 
   # Window class (Linux/BSD only):
   #class:
@@ -102,19 +102,17 @@ window:
   #multiplier: 3
 
 # Font configuration
-#font:
+font:
   # Normal (roman) font face
-  #normal:
+  normal:
     # Font family
     #
-    # Default:
-    #   - (macOS) Menlo
-    #   - (Linux/BSD) monospace
-    #   - (Windows) Consolas
-    #family: monospace
+     # Default:
+     #   - JetBrains Mono
+    family: JetBrains Mono
 
     # The `style` can be specified to pick a specific face.
-    #style: Regular
+    # style: Regular
 
   # Bold font face
   #bold:
@@ -128,15 +126,15 @@ window:
     #style: Bold
 
   # Italic font face
-  #italic:
+  italic:
     # Font family
     #
     # If the italic family is not specified, it will fall back to the
     # value specified for the normal font.
-    #family: monospace
+    family: JetBrains Mono Italic
 
     # The `style` can be specified to pick a specific face.
-    #style: Italic
+    style: Italic
 
   # Bold italic font face
   #bold_italic:
@@ -150,7 +148,7 @@ window:
     #style: Bold Italic
 
   # Point size
-  #size: 11.0
+  size: 16.0
 
   # Offset is the extra space around each character. `offset.y` can be thought
   # of as modifying the line spacing, and `offset.x` as modifying the letter
@@ -173,7 +171,65 @@ window:
   #use_thin_strokes: true
 
 # If `true`, bold text is drawn using the bright color variants.
-#draw_bold_text_with_bright_colors: false
+draw_bold_text_with_bright_colors: true
+
+# Colors (Iceberg Dark)
+colors:
+  # Default colors
+  primary:
+    background: '#161821'
+    foreground: '#d2d4de'
+
+  # Normal colors
+  normal:
+    black:   '#161821'
+    red:     '#e27878'
+    green:   '#b4be82'
+    yellow:  '#e2a478'
+    blue:    '#84a0c6'
+    magenta: '#a093c7'
+    cyan:    '#89b8c2'
+    white:   '#c6c8d1'
+
+  # Bright colors
+  bright:
+    black:   '#6b7089'
+    red:     '#e98989'
+    green:   '#c0ca8e'
+    yellow:  '#e9b189'
+    blue:    '#91acd1'
+    magenta: '#ada0d3'
+    cyan:    '#95c4ce'
+    white:   '#d2d4de'
+
+# Colors (Iceberg light)
+# colors:
+#   # Default colors
+#   primary:
+#     background: '0xe8e9ec'
+#     foreground: '0x33374c'
+
+#   # Normal colors
+#   normal:
+#     black:   '0xdcdfe7'
+#     red:     '0xcc517a'
+#     green:   '0x668e3d'
+#     yellow:  '0xc57339'
+#     blue:    '0x2d539e'
+#     magenta: '0x7759b4'
+#     cyan:    '0x3f83a6'
+#     white:   '0x33374c'
+
+#   # Bright colors
+#   bright:
+#     black:   '0x8389a3'
+#     red:     '0xcc3768'
+#     green:   '0x598030'
+#     yellow:  '0xb6662d'
+#     blue:    '0x22478e'
+#     magenta: '0x6845ad'
+#     cyan:    '0x327698'
+#     white:   '0x262a3f'
 
 # Colors (Tomorrow Night)
 #colors:
@@ -391,10 +447,10 @@ window:
 #   - (macOS) /bin/bash --login
 #   - (Linux/BSD) user login shell
 #   - (Windows) powershell
-#shell:
-#  program: /bin/bash
-#  args:
-#    - --login
+shell:
+  program: /bin/zsh
+  args:
+    - --login
 
 # Startup directory
 #
@@ -663,7 +719,7 @@ window:
 #
 # If the same trigger is assigned to multiple actions, all of them are executed
 # in the order they were defined in.
-#key_bindings:
+key_bindings:
   #- { key: Paste,                                action: Paste          }
   #- { key: Copy,                                 action: Copy           }
   #- { key: L,         mods: Control,             action: ClearLogNotice }
@@ -675,10 +731,10 @@ window:
 
   # Vi Mode
   #- { key: Space,  mods: Shift|Control, mode: Vi, action: ScrollToBottom          }
-  #- { key: Space,  mods: Shift|Control,           action: ToggleViMode            }
+  - { key: V,  mods: Shift|Control,           action: ToggleViMode            }
   #- { key: Escape,                      mode: Vi, action: ClearSelection          }
   #- { key: I,                           mode: Vi, action: ScrollToBottom          }
-  #- { key: I,                           mode: Vi, action: ToggleViMode            }
+  # - { key: I,                           mode: Vi, action: ToggleViMode            }
   #- { key: C,      mods: Control,       mode: Vi, action: ToggleViMode            }
   #- { key: Y,      mods: Control,       mode: Vi, action: ScrollLineUp            }
   #- { key: E,      mods: Control,       mode: Vi, action: ScrollLineDown          }
