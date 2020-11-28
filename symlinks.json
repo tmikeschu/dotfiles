@@ -16,5 +16,6 @@
   "/Users/tmikeschutte/.hammerspoon/init.lua": "/Users/tmikeschutte/dotfiles/init.lua",
   "/Users/tmikeschutte/.ctags": "/Users/tmikeschutte/dotfiles/.ctags",
   "/Users/tmikeschutte/.gitconfig": "/Users/tmikeschutte/dotfiles/.gitconfig",
-  "/Users/tmikeschutte/.gitignore_global": "/Users/tmikeschutte/dotfiles/.gitignore_global"
+  "/Users/tmikeschutte/.gitignore_global": "/Users/tmikeschutte/dotfiles/.gitignore_global",
+  "/Users/tmikeschutte/.alacritty.yml": "/Users/tmikeschutte/dotfiles/.alacritty.yml"
 }
