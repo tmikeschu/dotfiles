@@ -139,3 +139,5 @@ eval "$(jenv init -)"
 # fnm
 export PATH=/Users/tmikeschutte/.fnm:$PATH
 eval "`fnm env`"
+
+export MANPAGER="sh -c 'col -bx | bat -l man -p'"
