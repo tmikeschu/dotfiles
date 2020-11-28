@@ -1,3 +1,4 @@
 .env.bash
 .gitconfig-me
 .gitconfig-ps
+node_modules
