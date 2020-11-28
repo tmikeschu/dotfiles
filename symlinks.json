@@ -12,5 +12,9 @@
   "/Users/tmikeschutte/.vimrc": "/Users/tmikeschutte/dotfiles/.vimrc",
   "/Users/tmikeschutte/.tmux.conf": "/Users/tmikeschutte/dotfiles/.tmux.conf",
   "/Users/tmikeschutte/Library/Application Support/Code/User/keybindings.json": "/Users/tmikeschutte/dotfiles/vscode-keyboard.json",
-  "/Users/tmikeschutte/Library/Application Support/Code/User/settings.json": "/Users/tmikeschutte/dotfiles/vscode-settings.json"
+  "/Users/tmikeschutte/Library/Application Support/Code/User/settings.json": "/Users/tmikeschutte/dotfiles/vscode-settings.json",
+  "/Users/tmikeschutte/.hammerspoon/init.lua": "/Users/tmikeschutte/dotfiles/init.lua",
+  "/Users/tmikeschutte/.ctags": "/Users/tmikeschutte/dotfiles/.ctags",
+  "/Users/tmikeschutte/.gitconfig": "/Users/tmikeschutte/dotfiles/.gitconfig",
+  "/Users/tmikeschutte/.gitignore_global": "/Users/tmikeschutte/dotfiles/.gitignore_global"
 }
