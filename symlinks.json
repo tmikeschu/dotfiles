@@ -1,0 +1,16 @@
+{
+  "/Users/tmikeschutte/.bash_profile": "/Users/tmikeschutte/dotfiles/.bash_profile",
+  "/Users/tmikeschutte/.bashrc": "/Users/tmikeschutte/dotfiles/.bash_profile",
+  "/Users/tmikeschutte/.zshrc": "/Users/tmikeschutte/dotfiles/.zshrc",
+  "/Users/tmikeschutte/.tigrc": "/Users/tmikeschutte/dotfiles/.tigrc",
+  "/Users/tmikeschutte/.config/nvim": "/Users/tmikeschutte/.vim",
+  "/Users/tmikeschutte/.git-completion.bash": "/Users/tmikeschutte/dotfiles/.git-completion.bash",
+  "/Users/tmikeschutte/.gvimrc": "/Users/tmikeschutte/dotfiles/.vimrc",
+  "/Users/tmikeschutte/.inputrc": "/Users/tmikeschutte/dotfiles/.inputrc ",
+  "/Users/tmikeschutte/.vim": "/Users/tmikeschutte/dotfiles/neovim/ftplugin",
+  "/Users/tmikeschutte/.vim/init.vim": "/Users/tmikeschutte/dotfiles/.vimrc",
+  "/Users/tmikeschutte/.vimrc": "/Users/tmikeschutte/dotfiles/.vimrc",
+  "/Users/tmikeschutte/.tmux.conf": "/Users/tmikeschutte/dotfiles/.tmux.conf",
+  "/Users/tmikeschutte/Library/Application Support/Code/User/keybindings.json": "/Users/tmikeschutte/dotfiles/vscode-keyboard.json",
+  "/Users/tmikeschutte/Library/Application Support/Code/User/settings.json": "/Users/tmikeschutte/dotfiles/vscode-settings.json"
+}
