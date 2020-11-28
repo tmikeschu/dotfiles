@@ -39,7 +39,8 @@ echo "brew installing stuff"
 brew tap cantino/mcfly https://github.com/cantino/mcfly
 
 brew install git gh ripgrep imagemagick watchman tree bat \
-  switchaudio-osx ctags zsh fnm mcfly tig gnupg jenv mkcert libusb
+  switchaudio-osx ctags zsh fnm mcfly tig gnupg jenv mkcert \
+  libusb starship exa
 brew install --HEAD neovim
 
 echo "installing node (via n-install)"

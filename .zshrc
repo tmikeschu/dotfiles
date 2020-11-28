@@ -123,9 +123,8 @@ source $ZSH/oh-my-zsh.sh
 
 export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"
 
-# Set Spaceship ZSH as a prompt
-autoload -U promptinit; promptinit
-prompt spaceship
+eval "$(starship init zsh)"
+
 source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 if [[ -r "$(brew --prefix)/opt/mcfly/mcfly.zsh" ]]; then
