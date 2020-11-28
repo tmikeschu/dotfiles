@@ -26,19 +26,21 @@ mkdir -p "${HOME}/code"
 
 echo "installing homebrew"
 # install homebrew https://brew.sh
-/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
 
 echo "brew installing stuff"
-# hub: a github-specific version of git
-# libdvdcss: makes handbreak capable of ripping DVDs
+# gh: a github-specific version of git
 # ripgrep: rg is faster than alternatives
 # imagemagick: eventually I will need this for something
 # ffmpeg: eventually I'll need this for something
 # tree: really handy for listing out directories in text
 # bat: A cat(1) clone with syntax highlighting and Git integration.
 # switchaudio-osx: allows me to switch the audio device via the command line
-brew install git hub libdvdcss ripgrep imagemagick watchman tree bat \
-switchaudio-osx
+brew tap cantino/mcfly https://github.com/cantino/mcfly
+
+brew install git gh ripgrep imagemagick watchman tree bat \
+  switchaudio-osx ctags zsh fnm mcfly tig gnupg jenv mkcert libusb
+brew install --HEAD neovim
 
 echo "installing node (via n-install)"
 curl -L https://git.io/n-install | bash
@@ -47,29 +49,30 @@ echo "node --version: $(node --version)"
 echo "npm --version: $(npm --version)"
 
 echo "installing a few global npm packages"
-npm install --global serve diff-so-fancy fkill-cli npm-quick-run \
-semantic-release-cli npm-check-updates
+npm install --global yarn serve diff-so-fancy fkill-cli npm-quick-run \
+semantic-release-cli npm-check-updates chalk
 
 echo "installing apps with brew cask"
-brew cask install alfred google-chrome firefox brave-browser bettertouchtool divvy \
-bartender google-drive-file-stream itsycal visual-studio-code 1password dash \
-screenflow marshallofsound-google-play-music-player skype workflowy \
-sublime-text vlc discord obs handbrake zoomus betterzip avibrazil-rdm sip \
-qlcolorcode qlmarkdown qlstephen quicklook-json webpquicklook \
-suspicious-package qlvideo spotify focus dropbox front qmoji slack
+brew install --cask hammerspoon docker alfred google-chrome firefox brave-browser \
+bartender visual-studio-code 1password dash \
+notion \
+vlc discord zoomus betterzip avibrazil-rdm sip \
+suspicious-package spotify front qmoji slack docker \
+postico encryptme gpg-suite 
 
 echo "Generating an RSA token for GitHub"
 mkdir -p ~/.ssh
 touch ~/.ssh/config
-ssh-keygen -t rsa -b 4096 -C "me+github@tmikeschu.com"
-echo "Host *\n AddKeysToAgent yes\n UseKeychain yes\n IdentityFile ~/.ssh/id_rsa" | tee ~/.ssh/config
+ssh-keygen -t ed25519 -C "tmikeschutte@gmail.com"
+
+echo "Host *\n AddKeysToAgent yes\n UseKeychain yes\n IdentityFile ~/.ssh/id_ed25519" | tee ~/.ssh/config
 eval "$(ssh-agent -s)"
-echo "run 'pbcopy < ~/.ssh/id_rsa.pub' and paste that into GitHub"
+echo "run 'pbcopy < ~/.ssh/id_ed25519.pub' and paste that into GitHub"
 
 echo "cloning dotfiles"
 git clone git@github.com:tmikeschu/dotfiles.git "${HOME}/dotfiles"
 cd dotfiles
-./make_sym_links.rb
+node ./make_symlinks.js
 cd -
 
 echo "making system modifications:"
@@ -833,6 +836,7 @@ defaults write com.apple.messageshelper.MessageController SOInputLineSettings -d
 ###############################################################################
 
 # Disable the all too sensitive backswipe on trackpads
+defaults write com.google.Chrome ExternalProtocolDialogShowAlwaysOpenCheckbox -bool true
 defaults write com.google.Chrome AppleEnableSwipeNavigateWithScrolls -bool false
 defaults write com.google.Chrome.canary AppleEnableSwipeNavigateWithScrolls -bool false
 
