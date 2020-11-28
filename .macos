@@ -73,6 +73,7 @@ echo "run 'pbcopy < ~/.ssh/id_ed25519.pub' and paste that into GitHub"
 echo "cloning dotfiles"
 git clone git@github.com:tmikeschu/dotfiles.git "${HOME}/dotfiles"
 cd dotfiles
+yarn
 node ./make_symlinks.js
 cd -
 
