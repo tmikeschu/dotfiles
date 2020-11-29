@@ -38,9 +38,7 @@ echo "brew installing stuff"
 # switchaudio-osx: allows me to switch the audio device via the command line
 brew tap cantino/mcfly https://github.com/cantino/mcfly
 
-brew install git gh ripgrep imagemagick watchman tree bat \
-  switchaudio-osx ctags zsh fnm mcfly tig gnupg jenv mkcert \
-  libusb starship exa
+brew install $(< ./brew.txt)
 brew install --HEAD neovim
 
 echo "installing node (via n-install)"
@@ -54,13 +52,7 @@ npm install --global yarn serve diff-so-fancy fkill-cli npm-quick-run \
   semantic-release-cli npm-check-updates chalk
 
 echo "installing apps with brew cask"
-brew install --cask hammerspoon docker alfred alacritty \
-  google-chrome firefox brave-browser \
-  bartender visual-studio-code 1password \
-  notion slack zoomus discord \
-  vlc betterzip avibrazil-rdm sip \
-  suspicious-package spotify qmoji \
-  postico encryptme gpg-suite dash
+brew install --cask $(< ./brew-cask.txt)
 
 echo "Generating an RSA token for GitHub"
 mkdir -p ~/.ssh
