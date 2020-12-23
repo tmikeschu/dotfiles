@@ -1,5 +1,5 @@
 [gpg]
-  program = gpg2
+  program = gpg
 [includeIf "gitdir:~/code/ps/"]
   path = ~/dotfiles/.gitconfig-ps
 [includeIf "gitdir:~/"]
