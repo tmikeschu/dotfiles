@@ -2,7 +2,7 @@
   "files.autoSave": "off",
   "editor.tabSize": 2,
   "editor.fontFamily": "'JetBrains Mono', 'Source Code Pro', 'Courier New', monospace",
-  "window.zoomLevel": 1,
+  "window.zoomLevel": 0,
   "editor.fontSize": 16,
   "files.trimTrailingWhitespace": true,
   "files.insertFinalNewline": true,
@@ -10,7 +10,7 @@
   "html.format.indentInnerHtml": true,
   "zenMode.hideStatusBar": false,
   "zenMode.hideTabs": false,
-  "workbench.iconTheme": "vs-seti",
+  "workbench.iconTheme": "eq-material-theme-icons-palenight",
   "workbench.colorTheme": "Iceberg",
   "workbench.editor.enablePreview": true,
   "editor.minimap.enabled": false,
@@ -35,6 +35,9 @@
   "[html]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
+  "[toml]": {
+    "editor.defaultFormatter": "tamasfe.even-better-toml"
+  },
   "editor.formatOnSave": true,
   "zenMode.centerLayout": false,
   "todo-tree.tree.showScanModeButton": false,
@@ -44,10 +47,25 @@
   "vscode-neovim.neovimExecutablePaths.darwin": "/usr/local/bin/nvim",
   "workbench.editor.highlightModifiedTabs": true,
   "editor.lineNumbers": "relative",
-  "git.autofetch": true,
+  "git.autofetch": false,
   "editor.codeActionsOnSave": {
     "source.fixAll": true
   },
+  "[scss]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "files.associations": {
+    "Fastfile": "ruby"
+  },
+  "todo-tree.filtering.excludeGlobs": ["public/**/*"],
+  "workbench.startupEditor": "welcomePage",
+  "powermode.enabled": false,
+  "files.watcherExclude": {
+    "**/.bloop": true,
+    "**/.metals": true,
+    "**/.ammonite": true
+  },
+  "git.autorefresh": false,
   "terminal.integrated.shell.osx": "/usr/local/bin/nu",
   "terminal.integrated.shellArgs.osx": []
 }
