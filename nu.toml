@@ -1,0 +1,87 @@
+disable_table_indexes = "false"
+edit_mode = "vi"
+path = [
+  "/usr/local/bin",
+  "/usr/bin",
+  "/bin",
+  "$HOME/.local/bin",
+  "/usr/local/sbin",
+  "/usr/local/opt/postgresql@9.5/bin",
+  "$HOME/.rbenv/bin",
+  "$HOME/.jenv/bin",
+  "$HOME/.yarn/bin",
+  "$HOME/.config/yarn/global/node_modules/.bin",
+  "/Users/tmikeschutte/.fnm",
+  "/var/folders/hv/l2tpqhnj05x33z_p51g13g8h0000gn/T/fnm_multishell_12866_1608750290483",
+]
+pivot_mode = "auto"
+prompt = "echo $(starship prompt)"
+startup = [
+  "alias gst [] { git status }",
+  "alias gco [] { git checkout }",
+  "alias gcb [] { git checkout -b }",
+  "alias gommit [] { git commit }",
+  "alias gb [] { git branch }",
+  "alias gh [] { git hist }",
+  "alias glod [] { git log --graph --pretty=\"%Cgreen%h%Creset%Cblue%d%Creset Cred%an%Creset: %s\" }",
+  "alias getch [] { git fetch }",
+  "alias grebase [] { git rebase }",
+  "alias grontinue [] { git rebase --continue }",
+  "alias grip [] { git rebase --skip }",
+  "alias grabort [] { git rebase --abort }",
+  "alias gatswhatisaid [] { git commit --amend --no-edit }",
+]
+
+[env]
+CLICOLOR = "1"
+COLORTERM = "truecolor"
+COMMAND_MODE = "unix2003"
+COMPOSE_DOCKER_CLI_BUILD = "1"
+DOCKER_BUILDKIT = "1"
+EDITOR = "nvim"
+FNM_DIR = "/Users/tmikeschutte/.fnm"
+FNM_LOGLEVEL = "info"
+FNM_MULTISHELL_PATH = "/var/folders/hv/l2tpqhnj05x33z_p51g13g8h0000gn/T/fnm_multishell_99228_1608732672550"
+FNM_NODE_DIST_MIRROR = "https://nodejs.org/dist"
+GIT_ASKPASS = "/Applications/Visual Studio Code.app/Contents/Resources/app/extensions/git/dist/askpass.sh"
+HISTCONTROL = "erasedups"
+HOME = "/Users/tmikeschutte"
+JAVA_HOME = "/Users/tmikeschutte/.jenv/versions/openjdk64-11.0.9.1"
+JDK_HOME = "/Users/tmikeschutte/.jenv/versions/openjdk64-11.0.9.1"
+JENV_FORCEJAVAHOME = "true"
+JENV_FORCEJDKHOME = "true"
+JENV_LOADED = "1"
+JENV_SHELL = "zsh"
+LANG = "en_US.UTF-8"
+LOGNAME = "tmikeschutte"
+LSCOLORS = "GxFxCxDxBxegedabagaced"
+LaunchInstanceID = "94761343-E8F8-4A8D-A8DD-D4C66FC54151"
+MANPAGER = "sh -c 'col -bx | bat -l man -p'"
+NODE_EXTRA_CA_CERTS = "/Users/tmikeschutte/Library/Application Support/mkcert/rootCA.pem"
+OLDPWD = "/"
+ORIGINAL_XDG_CURRENT_DESKTOP = "undefined"
+PWD = "/Users/tmikeschutte/code/ps/process-street"
+RBENV_SHELL = "zsh"
+SBT_OPTS = "-Xmx2G -XX:MaxPermSize=2G -Xss2M  -Duser.timezone=GMT"
+SECURITYSESSIONID = "186a9"
+SHELL = "/bin/zsh"
+SHLVL = "0"
+SSH_AUTH_SOCK = "/private/tmp/com.apple.launchd.BadR6wq76l/Listeners"
+STARSHIP_SESSION_KEY = "3117119392773027"
+STARSHIP_SHELL = "nu"
+TERM = "xterm-256color"
+TERM_PROGRAM = "vscode"
+TERM_PROGRAM_VERSION = "1.52.1"
+TERM_SESSION_ID = "E925C396-0F61-4A5E-86EF-D5EF07168298"
+TMPDIR = "/var/folders/hv/l2tpqhnj05x33z_p51g13g8h0000gn/T/"
+TMUX = "/private/tmp/tmux-501/default,10132,1"
+TMUX_PANE = "%2"
+USER = "tmikeschutte"
+VSCODE_GIT_ASKPASS_MAIN = "/Applications/Visual Studio Code.app/Contents/Resources/app/extensions/git/dist/askpass-main.js"
+VSCODE_GIT_ASKPASS_NODE = "/Applications/Visual Studio Code.app/Contents/Frameworks/Code Helper (Renderer).app/Contents/MacOS/Code Helper (Renderer)"
+VSCODE_GIT_IPC_HANDLE = "/var/folders/hv/l2tpqhnj05x33z_p51g13g8h0000gn/T/vscode-git-32b2d100dc.sock"
+XPC_FLAGS = "0x0"
+XPC_SERVICE_NAME = "application.com.microsoft.VSCode.9461482.9461488"
+_ = "/Applications/Visual Studio Code.app/Contents/MacOS/Electron"
+__CFBundleIdentifier = "com.microsoft.VSCode"
+__CF_USER_TEXT_ENCODING = "0x1F5:0x0:0x0"

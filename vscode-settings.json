@@ -2,7 +2,6 @@
   "files.autoSave": "off",
   "editor.tabSize": 2,
   "editor.fontFamily": "'JetBrains Mono', 'Source Code Pro', 'Courier New', monospace",
-  "terminal.integrated.shellArgs.osx": ["-l"],
   "window.zoomLevel": 1,
   "editor.fontSize": 16,
   "files.trimTrailingWhitespace": true,
@@ -48,5 +47,7 @@
   "git.autofetch": true,
   "editor.codeActionsOnSave": {
     "source.fixAll": true
-  }
+  },
+  "terminal.integrated.shell.osx": "/usr/local/bin/nu",
+  "terminal.integrated.shellArgs.osx": []
 }
