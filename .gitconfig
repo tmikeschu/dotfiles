@@ -1,9 +1,11 @@
 [gpg]
-  program = /usr/local/bin/gpg
-[includeIf "gitdir:~/"]
-  path = ~/dotfiles/.gitconfig-me
+  program = gpg2
 [includeIf "gitdir:~/code/ps/"]
   path = ~/dotfiles/.gitconfig-ps
+[includeIf "gitdir:~/"]
+  path = ~/dotfiles/.gitconfig-me
+[includeIf "gitdir:/var/"]
+  path = ~/dotfiles/.gitconfig-var
 [pager]
   branch = false
 [filter "lfs"]
