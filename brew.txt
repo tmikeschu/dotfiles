@@ -10,6 +10,7 @@ grex
 hyperfine
 imagemagick
 jenv
+rbenv
 libusb 
 mcfly
 mkcert
@@ -18,8 +19,9 @@ ripgrep
 sd
 starship
 switchaudio-osx
-tig
 tokei
 tree
 watchman
 zsh
+gitui
+nushell
