@@ -22,4 +22,3 @@ spotify
 suspicious-package
 visual-studio-code
 vlc
-time-out
