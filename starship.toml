@@ -1,0 +1,3 @@
+
+[nodejs]
+format = "via [🤖 $version](bold green) "
