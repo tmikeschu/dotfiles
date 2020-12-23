@@ -2,6 +2,8 @@ const fs = require("fs");
 const symlinks = require("./symlinks.json");
 const chalk = require("chalk");
 
+const PREFIX = process.env.PATH_PREFIX ?? "/Users/tmikeschutte";
+
 const log = {
   error: (...msgs) => console.error(chalk.black.bgRedBright(...msgs)),
   success: (...msgs) => console.log(chalk.black.bgGreenBright(...msgs)),
@@ -11,19 +13,18 @@ const log = {
 /**
  * @returns string
  */
-const stripUser = (path) =>
-  path.replace("/Users/tmikeschutte/", "").slice(-30).padStart(30, " ");
+const format = (path) => path.slice(-30).padStart(30, " ");
 
 const main = () => {
   log.info("Making symlinks\n");
 
   Object.entries(symlinks).forEach(([symbol, source]) => {
     try {
-      fs.symlinkSync(source, symbol, "file");
-      log.success(`${stripUser(symbol)} -> ${stripUser(source)}`);
+      fs.symlinkSync(`${PREFIX}/${source}`, `${PREFIX}/${symbol}`, "file");
+      log.success(`${format(symbol)} -> ${format(source)}`);
     } catch (err) {
       if (err.message.includes("EEXIST")) {
-        log.info(`exists: ${stripUser(symbol)} -> ${stripUser(source)}`);
+        log.info(`exists: ${format(symbol)} -> ${format(source)}`);
         return;
       }
       log.error(err.message);
