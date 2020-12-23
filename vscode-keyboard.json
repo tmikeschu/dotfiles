@@ -35,5 +35,14 @@
     "key": "ctrl+b r",
     "command": "workbench.action.terminal.rename",
     "when": "terminalFocus"
+  },
+  {
+    "key": "ctrl+b z",
+    "command": "workbench.action.toggleMaximizedPanel"
+  },
+  {
+    "key": "ctrl+b z",
+    "command": "-workbench.action.toggleMaximizedPanel",
+    "when": "terminalFocus"
   }
 ]
