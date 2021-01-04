@@ -66,6 +66,6 @@
     "**/.ammonite": true
   },
   "git.autorefresh": false,
-  "terminal.integrated.shell.osx": "/usr/local/bin/nu",
-  "terminal.integrated.shellArgs.osx": []
+  "terminal.integrated.shell.osx": "/bin/zsh",
+  "terminal.integrated.shellArgs.osx": ["-l"]
 }
