@@ -18,5 +18,6 @@
   ".gitignore_global": "dotfiles/.gitignore_global",
   ".alacritty.yml": "dotfiles/.alacritty.yml",
   "Library/Application Support/org.nushell.nu/config.toml": "dotfiles/nu.toml",
+  "Library/Application Support/gitui/key_config.ron": "dotfiles/gitui.ron",
   ".config/starship.toml": "dotfiles/starship.toml"
 }
