@@ -22,10 +22,6 @@ fi
 
 eval "$(starship init zsh)"
 
-if [[ -r "$(brew --prefix)/opt/mcfly/mcfly.zsh" ]]; then
-  source "$(brew --prefix)/opt/mcfly/mcfly.zsh"
-fi
-
 export MANPAGER="sh -c 'col -bx | bat -l man -p'"
 
 # If you come from bash you might have to change your $PATH.
@@ -127,3 +123,9 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+unalias gh
+
+if [[ -r "$(brew --prefix)/opt/mcfly/bin/mcfly.zsh" ]]; then
+  source "$(brew --prefix)/opt/mcfly/bin/mcfly.zsh"
+fi
+
