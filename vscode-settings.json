@@ -47,7 +47,6 @@
   "vscode-neovim.neovimExecutablePaths.darwin": "/usr/local/bin/nvim",
   "workbench.editor.highlightModifiedTabs": true,
   "editor.lineNumbers": "relative",
-  "git.autofetch": false,
   "editor.codeActionsOnSave": {
     "source.fixAll": true
   },
@@ -58,14 +57,19 @@
     "Fastfile": "ruby"
   },
   "todo-tree.filtering.excludeGlobs": ["public/**/*"],
-  "workbench.startupEditor": "welcomePage",
+  "workbench.startupEditor": "newUntitledFile",
   "powermode.enabled": false,
   "files.watcherExclude": {
     "**/.bloop": true,
     "**/.metals": true,
     "**/.ammonite": true
   },
-  "git.autorefresh": false,
   "terminal.integrated.shell.osx": "/bin/zsh",
-  "terminal.integrated.shellArgs.osx": ["-l"]
+  "terminal.integrated.shellArgs.osx": ["-l"],
+  "jest.runAllTestsFirst": false,
+  "jest.autoEnable": false,
+  "jest.showCoverageOnLoad": false,
+  "terminal.explorerKind": "external",
+  "explorer.autoReveal": false,
+  "breadcrumbs.enabled": true
 }

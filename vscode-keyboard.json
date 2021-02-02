@@ -1,5 +1,13 @@
 [
+  { "key": "ctrl+b e", "command": "workbench.action.focusActiveEditorGroup" },
+  { "key": "ctrl+b f", "command": "workbench.action.focusSideBar" },
+  { "key": "ctrl+b f", "command": "workbench.action.focusSideBar" },
   { "key": "ctrl+b t", "command": "workbench.action.terminal.focus" },
+  {
+    "key": "ctrl+b t",
+    "command": "workbench.action.togglePanel",
+    "when": "terminalFocus"
+  },
   { "key": "ctrl+b o", "command": "workbench.action.terminal.focus" },
   {
     "key": "ctrl+b o",
@@ -24,17 +32,8 @@
     "command": "workbench.action.terminal.new"
   },
   {
-    "key": "ctrl+b s",
-    "command": "workbench.action.terminal.split"
-  },
-  {
     "key": "ctrl+b x",
     "command": "workbench.action.terminal.kill"
-  },
-  {
-    "key": "ctrl+b r",
-    "command": "workbench.action.terminal.rename",
-    "when": "terminalFocus"
   },
   {
     "key": "ctrl+b z",
@@ -43,6 +42,15 @@
   {
     "key": "ctrl+b z",
     "command": "-workbench.action.toggleMaximizedPanel",
+    "when": "terminalFocus"
+  },
+  {
+    "key": "ctrl+b r",
+    "command": "workbench.files.action.showActiveFileInExplorer"
+  },
+  {
+    "key": "ctrl+b r",
+    "command": "workbench.action.terminal.rename",
     "when": "terminalFocus"
   }
 ]
