@@ -1,55 +1,54 @@
 -- require('keyboard') -- Load Hammerspoon bits from https://github.com/jasonrudolph/keyboard
+local wm = require('window-management')
+local hyper = require('hyper')
+hyper.install('F19')
+hyper.bindKey('r', hs.reload)
 
-function makeMax()
-  win = hs.window.focusedWindow()
-  f = win:frame()
-  screen = win:screen()
-  return screen:frame()
-end
 
-function setFrame(x, y, w, h)
-  f.x = x
-  f.y = y
-  f.w = w
-  f.h = h
-  win:setFrame(f)
-end
-
-hs.hotkey.bind({"cmd", "alt", "ctrl"}, "Left", function()
-  max = makeMax()
-  setFrame(max.x, max.y, max.w / 2, max.h)
+hyper.bindKey("Left", function()
+  wm.moveWindowToPosition(wm.screenPositions.left)
 end)
 
-hs.hotkey.bind({"cmd", "alt", "ctrl"}, "Right", function()
-  win = hs.window.focusedWindow()
-  f = win:frame()
-  screen = win:screen()
-  max = screen:frame()
-  setFrame(max.x + max.w / 2, max.y, max.w / 2, max.h)
+hyper.bindKey("Right", function()
+  wm.moveWindowToPosition(wm.screenPositions.right)
 end)
 
-hs.hotkey.bind({"cmd", "alt", "ctrl"}, "Up", function()
-  win = hs.window.focusedWindow()
-  f = win:frame()
-  screen = win:screen()
-  max = screen:frame()
-  setFrame(max.x, max.y, max.w, max.h / 2)
+hyper.bindKey("Up", function()
+  wm.moveWindowToPosition(wm.screenPositions.top)
 end)
 
-hs.hotkey.bind({"cmd", "alt", "ctrl"}, "Down", function()
-  win = hs.window.focusedWindow()
-  f = win:frame()
-  screen = win:screen()
-  max = screen:frame()
-  setFrame(max.x, max.y + max.h / 2, max.w, max.h / 2)
+hyper.bindKey("Down", function()
+  wm.moveWindowToPosition(wm.screenPositions.bottom)
 end)
 
-hs.hotkey.bind({"cmd", "alt", "ctrl"}, "F", function()
-  win = hs.window.focusedWindow()
-  f = win:frame()
-  screen = win:screen()
-  max = screen:frame()
-  setFrame(max.x, max.y, max.w, max.h)
+hyper.bindKey("f", function()
+  wm.windowMaximize(0)
+end)
+
+hyper.bindKey("1", function()
+  wm.moveWindowToPosition(wm.screenPositions.topLeft)
+end)
+
+hyper.bindKey("2", function()
+  wm.moveWindowToPosition(wm.screenPositions.topRight)
+end)
+
+hyper.bindKey("3", function()
+  wm.moveWindowToPosition(wm.screenPositions.bottomRight)
+end)
+
+hyper.bindKey("4", function()
+  wm.moveWindowToPosition(wm.screenPositions.bottomLeft)
+end)
+
+hyper.bindKey("c", function()
+  hs.window.focusedWindow():centerOnScreen(nil, true)
+end)
+
+hs.window.highlight.start()
+hs.window.highlight.ui.overlayColor={0.2,0.05,0,0.50}
+hyper.bindKey("i", function()
+  hs.window.highlight.toggleIsolate()
 end)
 
 function reloadConfig(files)
