@@ -1,9 +1,9 @@
 [gpg]
-  program = gpg
-[includeIf "gitdir:~/code/ps/"]
-  path = ~/dotfiles/.gitconfig-ps
+  program = /usr/local/MacGPG2/bin/gpg
 [includeIf "gitdir:~/"]
   path = ~/dotfiles/.gitconfig-me
+[includeIf "gitdir:~/code/ps/"]
+  path = ~/dotfiles/.gitconfig-ps
 [includeIf "gitdir:/var/"]
   path = ~/dotfiles/.gitconfig-var
 [pager]
