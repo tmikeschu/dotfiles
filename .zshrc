@@ -125,7 +125,7 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 unalias gh
 
-if [[ -r "$(brew --prefix)/opt/mcfly/bin/mcfly.zsh" ]]; then
-  source "$(brew --prefix)/opt/mcfly/bin/mcfly.zsh"
+if [[ -r "$(brew --prefix)/opt/mcfly/mcfly.zsh" ]]; then
+  source "$(brew --prefix)/opt/mcfly/mcfly.zsh"
 fi
 
