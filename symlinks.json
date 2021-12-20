@@ -8,16 +8,15 @@
   ".inputrc": "dotfiles/.inputrc ",
   ".vim": "dotfiles/neovim/ftplugin",
   ".vim/init.vim": "dotfiles/.vimrc",
+  ".vim/coc-settings.json": "dotfiles/neovim/coc-settings.json",
   ".vimrc": "dotfiles/.vimrc",
   ".tmux.conf": "dotfiles/.tmux.conf",
   "Library/Application Support/Code/User/keybindings.json": "dotfiles/vscode-keyboard.json",
   "Library/Application Support/Code/User/settings.json": "dotfiles/vscode-settings.json",
-  ".hammerspoon/init.lua": "dotfiles/init.lua",
   ".ctags": "dotfiles/.ctags",
   ".gitconfig": "dotfiles/.gitconfig",
   ".gitignore_global": "dotfiles/.gitignore_global",
   ".alacritty.yml": "dotfiles/.alacritty.yml",
-  "Library/Application Support/org.nushell.nu/config.toml": "dotfiles/nu.toml",
-  "Library/Application Support/gitui/key_config.ron": "dotfiles/gitui.ron",
+  ".config/gitui/key_config.ron": "dotfiles/gitui.ron",
   ".config/starship.toml": "dotfiles/starship.toml"
 }

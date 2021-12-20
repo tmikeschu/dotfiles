@@ -129,3 +129,7 @@ if [[ -r "$(brew --prefix)/opt/mcfly/mcfly.zsh" ]]; then
   source "$(brew --prefix)/opt/mcfly/mcfly.zsh"
 fi
 
+eval "$(zoxide init zsh)"
+
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh

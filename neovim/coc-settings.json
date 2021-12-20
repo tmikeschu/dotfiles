@@ -14,10 +14,9 @@
     "markdown",
     "md",
     "svelte",
-    "html"
+    "html",
+    "scala"
   ],
-  "git.addGBlameToBufferVar": true,
-  "git.addGBlameToVirtualText": true,
   "list.source.files.excludePatterns": [
     "**/node_modules/**/*",
     "**/node_modules/**/.*",

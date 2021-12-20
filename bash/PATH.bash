@@ -13,7 +13,8 @@ export PATH=/Users/tmikeschutte/.fnm:$PATH
 # export PATH=$ANDROID_HOME/emulator:$ANDROID_HOME/tools:$PATH
 
 # fnm
-eval "`fnm env`"
+eval "$(fnm env)"
+eval "`fnm env --use-on-cd`"
 
 export PATH
 

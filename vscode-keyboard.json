@@ -28,6 +28,16 @@
     "command": "workbench.action.terminal.focusPrevious"
   },
   {
+    "key": "ctrl+w l",
+    "command": "workbench.action.terminal.focusNextPane",
+    "when": "terminalFocus"
+  },
+  {
+    "key": "ctrl+w h",
+    "command": "workbench.action.terminal.focusPreviousPane",
+    "when": "terminalFocus"
+  },
+  {
     "key": "ctrl+b c",
     "command": "workbench.action.terminal.new"
   },
@@ -52,5 +62,9 @@
     "key": "ctrl+b r",
     "command": "workbench.action.terminal.rename",
     "when": "terminalFocus"
+  },
+  {
+    "key": "ctrl+b w",
+    "command": "workbench.action.quickSwitchWindow"
   }
 ]

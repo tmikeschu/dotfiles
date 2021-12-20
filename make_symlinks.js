@@ -13,7 +13,8 @@ const log = {
 /**
  * @returns string
  */
-const format = (path) => path.slice(-30).padStart(30, " ");
+const format = (path, { offset = 0 } = { offset: 0 }) =>
+  path.slice(-40 + offset).padStart(40 - offset, " ");
 
 const main = () => {
   log.info("Making symlinks\n");
@@ -24,7 +25,12 @@ const main = () => {
       log.success(`${format(symbol)} -> ${format(source)}`);
     } catch (err) {
       if (err.message.includes("EEXIST")) {
-        log.info(`exists: ${format(symbol)} -> ${format(source)}`);
+        const prefix = "exists: ";
+        log.info(
+          `${prefix}${format(symbol, { offset: prefix.length })} -> ${format(
+            source
+          )}`
+        );
         return;
       }
       log.error(err.message);

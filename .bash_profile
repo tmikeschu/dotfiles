@@ -1,5 +1,5 @@
 export HISTCONTROL=erasedups
-export EDITOR=nvim
+export EDITOR=hx
 
 include () {
     [[ -f "$1" ]] && source "$1"
@@ -14,3 +14,5 @@ if [[ -r "$(brew --prefix)/opt/mcfly/mcfly.bash" ]]; then
   source "$(brew --prefix)/opt/mcfly/mcfly.bash"
 fi
 source "$HOME/.cargo/env"
+
+[ -f ~/.fzf.bash ] && source ~/.fzf.bash

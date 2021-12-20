@@ -2,7 +2,6 @@
   "files.autoSave": "off",
   "editor.tabSize": 2,
   "editor.fontFamily": "'JetBrains Mono', 'Source Code Pro', 'Courier New', monospace",
-  "window.zoomLevel": 0,
   "editor.fontSize": 16,
   "files.trimTrailingWhitespace": true,
   "files.insertFinalNewline": true,
@@ -11,20 +10,24 @@
   "zenMode.hideStatusBar": false,
   "zenMode.hideTabs": false,
   "workbench.iconTheme": "eq-material-theme-icons-palenight",
-  "workbench.colorTheme": "Iceberg",
+  "workbench.colorTheme": "Panda Syntax",
   "workbench.editor.enablePreview": true,
   "editor.minimap.enabled": false,
   "[javascript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.autoClosingBrackets": "never"
   },
   "[typescript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.autoClosingBrackets": "never"
   },
   "[typescriptreact]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.autoClosingBrackets": "never"
   },
   "[javascriptreact]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.autoClosingBrackets": "never"
   },
   "[json]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
@@ -64,12 +67,65 @@
     "**/.metals": true,
     "**/.ammonite": true
   },
-  "terminal.integrated.shell.osx": "/bin/zsh",
-  "terminal.integrated.shellArgs.osx": ["-l"],
-  "jest.runAllTestsFirst": false,
-  "jest.autoEnable": false,
-  "jest.showCoverageOnLoad": false,
-  "terminal.explorerKind": "external",
   "explorer.autoReveal": false,
-  "breadcrumbs.enabled": true
+  "zenMode.hideLineNumbers": false,
+  "search.exclude": {
+    "**/.bloop": true
+  },
+  "dotty.trace.machineId": "9e99e896-fad7-489c-82eb-7e7ec9b4f9e4",
+  "liveshare.audio.joinCallBehavior": "accept",
+  "todo-tree.general.tags": [
+    "BUG",
+    "HACK",
+    "FIXME",
+    "TODO",
+    "XXX",
+    "[ ]",
+    "[x]"
+  ],
+  "todo-tree.regex.regex": "(//|#|<!--|;|/\\*|^|^\\s*(-|\\d+.))\\s*($TAGS)",
+  "terminal.explorerKind": "external",
+  "emmet.excludeLanguages": ["typescriptreact", "typescript"],
+  "editor.inlineSuggest.enabled": true,
+  "terminal.integrated.tabs.enabled": false,
+  "coscreen.apiKey": "YjgwMmYwODViNWFlNWNjYjo3NTBlMjhjNGFlZDg3MGMzYTlkYWQ4OTUwNmI1NWIyYQ==",
+  "terminal.integrated.profiles.osx": {
+    "bash": {
+      "path": "bash",
+      "args": ["-l"],
+      "icon": "terminal-bash"
+    },
+    "zsh": {
+      "path": "zsh",
+      "args": ["-l"]
+    },
+    "fish": {
+      "path": "fish",
+      "args": ["-l"]
+    },
+    "tmux": {
+      "path": "tmux",
+      "icon": "terminal-tmux"
+    },
+    "pwsh": {
+      "path": "pwsh",
+      "icon": "terminal-powershell"
+    },
+    "shell": {
+      "path": "/bin/zsh",
+      "args": ["-l"]
+    }
+  },
+  "terminal.integrated.defaultProfile.osx": "zsh",
+  "github.copilot.enable": {
+    "*": false,
+    "yaml": false,
+    "plaintext": true,
+    "markdown": true
+  },
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "git.autofetch": true,
+  "githubPullRequests.commentExpandState": "collapseAll",
+  "workbench.list.automaticKeyboardNavigation": false
 }
