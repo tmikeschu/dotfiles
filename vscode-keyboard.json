@@ -66,5 +66,15 @@
   {
     "key": "ctrl+b w",
     "command": "workbench.action.quickSwitchWindow"
+  },
+  {
+    "key": "ctrl+b shift+r",
+    "command": "testing.runAtCursor",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "cmd+; c",
+    "command": "-testing.runAtCursor",
+    "when": "editorTextFocus"
   }
 ]

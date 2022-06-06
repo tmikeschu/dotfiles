@@ -2,7 +2,7 @@
   "files.autoSave": "off",
   "editor.tabSize": 2,
   "editor.fontFamily": "'JetBrains Mono', 'Source Code Pro', 'Courier New', monospace",
-  "editor.fontSize": 16,
+  "editor.fontSize": 18,
   "files.trimTrailingWhitespace": true,
   "files.insertFinalNewline": true,
   "editor.cursorStyle": "block",
@@ -10,7 +10,7 @@
   "zenMode.hideStatusBar": false,
   "zenMode.hideTabs": false,
   "workbench.iconTheme": "eq-material-theme-icons-palenight",
-  "workbench.colorTheme": "Panda Syntax",
+  "workbench.colorTheme": "Noctis Lilac",
   "workbench.editor.enablePreview": true,
   "editor.minimap.enabled": false,
   "[javascript]": {
@@ -45,7 +45,7 @@
   "zenMode.centerLayout": false,
   "todo-tree.tree.showScanModeButton": false,
   "editor.fontLigatures": true,
-  "terminal.integrated.fontSize": 16,
+  "terminal.integrated.fontSize": 18,
   "vsicons.dontShowNewVersionMessage": true,
   "vscode-neovim.neovimExecutablePaths.darwin": "/usr/local/bin/nvim",
   "workbench.editor.highlightModifiedTabs": true,
@@ -118,7 +118,7 @@
   },
   "terminal.integrated.defaultProfile.osx": "zsh",
   "github.copilot.enable": {
-    "*": false,
+    "*": true,
     "yaml": false,
     "plaintext": true,
     "markdown": true
@@ -127,5 +127,9 @@
   "javascript.updateImportsOnFileMove.enabled": "always",
   "git.autofetch": true,
   "githubPullRequests.commentExpandState": "collapseAll",
-  "workbench.list.automaticKeyboardNavigation": false
+  "workbench.list.automaticKeyboardNavigation": false,
+  "terminal.integrated.autoReplies": {
+    "[Oh My Zsh] Would you like to check for updates? [Y/n]": "Y\r"
+  },
+  "githubPullRequests.terminalLinksHandler": "github"
 }
