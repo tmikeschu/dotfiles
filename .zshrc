@@ -6,6 +6,7 @@ export EDITOR=nvim
 export TERM="xterm-256color"
 export COMPOSE_DOCKER_CLI_BUILD=1
 export DOCKER_BUILDKIT=1
+export FNM_VERSION_FILE_STRATEGY=recursive
 
 include () {
     [[ -f "$1" ]] && source "$1"
@@ -133,3 +134,7 @@ eval "$(zoxide init zsh)"
 
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+
+eval "$(fnm env --use-on-cd)"
+
+export GPG_TTY=$(tty)
