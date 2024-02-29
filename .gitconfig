@@ -2,8 +2,8 @@
   program = /usr/local/MacGPG2/bin/gpg
 [includeIf "gitdir:~/"]
   path = ~/dotfiles/.gitconfig-me
-[includeIf "gitdir:~/code/ps/"]
-  path = ~/dotfiles/.gitconfig-ps
+[includeIf "gitdir:~/code/govly/"]
+  path = ~/dotfiles/.gitconfig-govly
 [includeIf "gitdir:/var/"]
   path = ~/dotfiles/.gitconfig-var
 [pager]
@@ -17,3 +17,13 @@
   gpgsign = true
 [core]
   excludesfile = /Users/tmikeschutte/.gitignore_global
+[blame]
+	ignoreRevsFile = 
+[user]
+	name = Mike Schutte
+	email = tmikeschutte@gmail.com
+[credential]
+	helper = 
+	helper = /usr/local/share/gcm-core/git-credential-manager
+[credential "https://dev.azure.com"]
+	useHttpPath = true
