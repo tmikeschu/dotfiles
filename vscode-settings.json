@@ -1,16 +1,14 @@
 {
   "files.autoSave": "off",
   "editor.tabSize": 2,
-  "editor.fontFamily": "'JetBrains Mono', 'Source Code Pro', 'Courier New', monospace",
-  "editor.fontSize": 18,
+  "editor.fontFamily": "'JetBrains Mono',  'Source Code Pro', 'Courier New', monospace",
+  "editor.fontSize": 16,
   "files.trimTrailingWhitespace": true,
   "files.insertFinalNewline": true,
   "editor.cursorStyle": "block",
   "html.format.indentInnerHtml": true,
   "zenMode.hideStatusBar": false,
-  "zenMode.hideTabs": false,
   "workbench.iconTheme": "eq-material-theme-icons-palenight",
-  "workbench.colorTheme": "Noctis Lilac",
   "workbench.editor.enablePreview": true,
   "editor.minimap.enabled": false,
   "[javascript]": {
@@ -38,26 +36,31 @@
   "[html]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "[toml]": {
-    "editor.defaultFormatter": "tamasfe.even-better-toml"
-  },
   "editor.formatOnSave": true,
   "zenMode.centerLayout": false,
   "todo-tree.tree.showScanModeButton": false,
   "editor.fontLigatures": true,
-  "terminal.integrated.fontSize": 18,
-  "vsicons.dontShowNewVersionMessage": true,
+  "terminal.integrated.fontSize": 16,
   "vscode-neovim.neovimExecutablePaths.darwin": "/usr/local/bin/nvim",
   "workbench.editor.highlightModifiedTabs": true,
   "editor.lineNumbers": "relative",
   "editor.codeActionsOnSave": {
-    "source.fixAll": true
+    "source.fixAll": "explicit"
   },
   "[scss]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "files.associations": {
-    "Fastfile": "ruby"
+    "Fastfile": "ruby",
+    "*.html.erb": "erb"
+  },
+  "tailwindCSS.experimental.classRegex": [
+    "\\bclass:\\s*'([^']*)'",
+    "\\bclass:\\s*\"([^\"]*)\""
+  ],
+  "[erb]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "aliariff.vscode-erb-beautify"
   },
   "todo-tree.filtering.excludeGlobs": ["public/**/*"],
   "workbench.startupEditor": "newUntitledFile",
@@ -87,7 +90,6 @@
   "terminal.explorerKind": "external",
   "emmet.excludeLanguages": ["typescriptreact", "typescript"],
   "editor.inlineSuggest.enabled": true,
-  "terminal.integrated.tabs.enabled": false,
   "coscreen.apiKey": "YjgwMmYwODViNWFlNWNjYjo3NTBlMjhjNGFlZDg3MGMzYTlkYWQ4OTUwNmI1NWIyYQ==",
   "terminal.integrated.profiles.osx": {
     "bash": {
@@ -119,17 +121,51 @@
   "terminal.integrated.defaultProfile.osx": "zsh",
   "github.copilot.enable": {
     "*": true,
-    "yaml": false,
+    "yaml": true,
     "plaintext": true,
     "markdown": true
   },
   "typescript.updateImportsOnFileMove.enabled": "always",
   "javascript.updateImportsOnFileMove.enabled": "always",
   "git.autofetch": true,
-  "githubPullRequests.commentExpandState": "collapseAll",
-  "workbench.list.automaticKeyboardNavigation": false,
   "terminal.integrated.autoReplies": {
     "[Oh My Zsh] Would you like to check for updates? [Y/n]": "Y\r"
   },
-  "githubPullRequests.terminalLinksHandler": "github"
+  "git.mergeEditor": true,
+  "window.commandCenter": true,
+  "emeraldwalk.runonsave": {
+    "commands": [
+      {
+        "match": ".scss",
+        "cmd": "yarn sasslint:fix ${file}"
+      }
+    ]
+  },
+  "explorer.fileNesting.enabled": true,
+  "explorer.fileNesting.patterns": {
+    "*.ts": "${capture}.js, ${capture}.typegen.ts",
+    "*.js": "${capture}.js.map, ${capture}.min.js, ${capture}.d.ts",
+    "*.jsx": "${capture}.js",
+    "*.tsx": "${capture}.ts, ${capture}.typegen.ts",
+    "tsconfig.json": "tsconfig.*.json",
+    "package.json": "package-lock.json, yarn.lock, pnpm-lock.yaml",
+    "*.mts": "${capture}.typegen.ts",
+    "*.cts": "${capture}.typegen.ts"
+  },
+  "typescript.tsserver.pluginPaths": ["typescript-plugin-css-modules"],
+  "typescript.tsserver.log": "off",
+  "[python]": {
+    "editor.formatOnType": true
+  },
+  "debug.console.fontSize": 16,
+  "markdown.preview.fontSize": 16,
+  "extensions.experimental.affinity": {
+    "asvetliakov.vscode-neovim": 1
+  },
+  "[ruby]": {
+    "editor.defaultFormatter": "jnbt.vscode-rufo"
+  },
+  "workbench.colorTheme": "Gruvbox Dark Hard",
+  "workbench.activityBar.location": "hidden",
+  "terminal.integrated.tabs.location": "left",
 }

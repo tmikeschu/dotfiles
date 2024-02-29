@@ -1,6 +1,6 @@
 [
   { "key": "ctrl+b e", "command": "workbench.action.focusActiveEditorGroup" },
-  { "key": "ctrl+b f", "command": "workbench.action.focusSideBar" },
+  { "key": "ctrl+b h", "command": "workbench.action.focusSideBar" },
   { "key": "ctrl+b f", "command": "workbench.action.focusSideBar" },
   { "key": "ctrl+b t", "command": "workbench.action.terminal.focus" },
   {
@@ -76,5 +76,45 @@
     "key": "cmd+; c",
     "command": "-testing.runAtCursor",
     "when": "editorTextFocus"
+  },
+  {
+    "key": "alt+]",
+    "command": "editor.action.inlineSuggest.showNext",
+    "when": "inlineSuggestionVisible"
+  },
+  {
+    "key": "alt+]",
+    "command": "-editor.action.inlineSuggest.showNext",
+    "when": "inlineSuggestionVisible && !editorReadonly"
+  },
+  {
+    "key": "alt+[",
+    "command": "editor.action.inlineSuggest.showPrevious",
+    "when": "inlineSuggestionVisible && !editorReadonly"
+  },
+  {
+    "key": "alt+[",
+    "command": "-editor.action.inlineSuggest.showPrevious",
+    "when": "inlineSuggestionVisible && !editorReadonly"
+  },
+  {
+    "key": "shift+escape",
+    "command": "leaveSnippet",
+    "when": "editorTextFocus && inSnippetMode"
+  },
+  {
+    "key": "escape",
+    "command": "-leaveSnippet",
+    "when": "editorTextFocus && inSnippetMode"
+  },
+  {
+    "key": "ctrl+b f",
+    "command": "filesExplorer.findInFolder",
+    "when": "explorerResourceIsFolder && explorerViewletVisible && filesExplorerFocus && !inputFocus"
+  },
+  {
+    "key": "shift+alt+f",
+    "command": "-filesExplorer.findInFolder",
+    "when": "explorerResourceIsFolder && explorerViewletVisible && filesExplorerFocus && !inputFocus"
   }
 ]
