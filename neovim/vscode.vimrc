@@ -8,6 +8,7 @@ set ignorecase
 set smartcase
 set gdefault
 
+
 if has('vim_starting')
   set runtimepath+=~/.config/nvim/bundle/neobundle.vim/
   set runtimepath+=~/.config/nvim/
@@ -32,3 +33,6 @@ NeoBundle 'tpope/vim-surround.git'
 call neobundle#end()
 
 NeoBundleCheck
+
+runtime macros/matchit.vim
+filetype plugin on

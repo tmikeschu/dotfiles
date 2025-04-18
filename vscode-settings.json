@@ -8,7 +8,6 @@
   "editor.cursorStyle": "block",
   "html.format.indentInnerHtml": true,
   "zenMode.hideStatusBar": false,
-  "workbench.iconTheme": "eq-material-theme-icons-palenight",
   "workbench.editor.enablePreview": true,
   "editor.minimap.enabled": false,
   "[javascript]": {
@@ -36,14 +35,11 @@
   "[html]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "editor.formatOnSave": true,
   "zenMode.centerLayout": false,
-  "todo-tree.tree.showScanModeButton": false,
   "editor.fontLigatures": true,
   "terminal.integrated.fontSize": 16,
   "vscode-neovim.neovimExecutablePaths.darwin": "/usr/local/bin/nvim",
   "workbench.editor.highlightModifiedTabs": true,
-  "editor.lineNumbers": "relative",
   "editor.codeActionsOnSave": {
     "source.fixAll": "explicit"
   },
@@ -59,8 +55,7 @@
     "\\bclass:\\s*\"([^\"]*)\""
   ],
   "[erb]": {
-    "editor.formatOnSave": true,
-    "editor.defaultFormatter": "aliariff.vscode-erb-beautify"
+    "editor.formatOnSave": true
   },
   "todo-tree.filtering.excludeGlobs": ["public/**/*"],
   "workbench.startupEditor": "newUntitledFile",
@@ -71,12 +66,9 @@
     "**/.ammonite": true
   },
   "explorer.autoReveal": false,
-  "zenMode.hideLineNumbers": false,
   "search.exclude": {
     "**/.bloop": true
   },
-  "dotty.trace.machineId": "9e99e896-fad7-489c-82eb-7e7ec9b4f9e4",
-  "liveshare.audio.joinCallBehavior": "accept",
   "todo-tree.general.tags": [
     "BUG",
     "HACK",
@@ -86,45 +78,9 @@
     "[ ]",
     "[x]"
   ],
-  "todo-tree.regex.regex": "(//|#|<!--|;|/\\*|^|^\\s*(-|\\d+.))\\s*($TAGS)",
-  "terminal.explorerKind": "external",
   "emmet.excludeLanguages": ["typescriptreact", "typescript"],
   "editor.inlineSuggest.enabled": true,
-  "coscreen.apiKey": "YjgwMmYwODViNWFlNWNjYjo3NTBlMjhjNGFlZDg3MGMzYTlkYWQ4OTUwNmI1NWIyYQ==",
-  "terminal.integrated.profiles.osx": {
-    "bash": {
-      "path": "bash",
-      "args": ["-l"],
-      "icon": "terminal-bash"
-    },
-    "zsh": {
-      "path": "zsh",
-      "args": ["-l"]
-    },
-    "fish": {
-      "path": "fish",
-      "args": ["-l"]
-    },
-    "tmux": {
-      "path": "tmux",
-      "icon": "terminal-tmux"
-    },
-    "pwsh": {
-      "path": "pwsh",
-      "icon": "terminal-powershell"
-    },
-    "shell": {
-      "path": "/bin/zsh",
-      "args": ["-l"]
-    }
-  },
   "terminal.integrated.defaultProfile.osx": "zsh",
-  "github.copilot.enable": {
-    "*": true,
-    "yaml": true,
-    "plaintext": true,
-    "markdown": true
-  },
   "typescript.updateImportsOnFileMove.enabled": "always",
   "javascript.updateImportsOnFileMove.enabled": "always",
   "git.autofetch": true,
@@ -133,14 +89,6 @@
   },
   "git.mergeEditor": true,
   "window.commandCenter": true,
-  "emeraldwalk.runonsave": {
-    "commands": [
-      {
-        "match": ".scss",
-        "cmd": "yarn sasslint:fix ${file}"
-      }
-    ]
-  },
   "explorer.fileNesting.enabled": true,
   "explorer.fileNesting.patterns": {
     "*.ts": "${capture}.js, ${capture}.typegen.ts",
@@ -154,18 +102,47 @@
   },
   "typescript.tsserver.pluginPaths": ["typescript-plugin-css-modules"],
   "typescript.tsserver.log": "off",
-  "[python]": {
-    "editor.formatOnType": true
-  },
   "debug.console.fontSize": 16,
   "markdown.preview.fontSize": 16,
   "extensions.experimental.affinity": {
     "asvetliakov.vscode-neovim": 1
   },
   "[ruby]": {
-    "editor.defaultFormatter": "jnbt.vscode-rufo"
+    "editor.defaultFormatter": "Shopify.ruby-lsp",
+    "editor.formatOnType": true,
+    "editor.insertSpaces": true,
+    "files.trimFinalNewlines": true,
+    "editor.rulers": [120],
+    "editor.semanticHighlighting.enabled": true,
+    "editor.tabSize": 2 // Use 2 spaces for indentation
   },
-  "workbench.colorTheme": "Gruvbox Dark Hard",
-  "workbench.activityBar.location": "hidden",
+  "[rake]": {
+    "editor.defaultFormatter": "Shopify.ruby-lsp"
+  },
   "terminal.integrated.tabs.location": "left",
+  "githubPullRequests.pullBranch": "never",
+  "workbench.iconTheme": "material-icon-theme",
+  "javascript.preferences.importModuleSpecifier": "non-relative",
+  "typescript.preferences.importModuleSpecifier": "non-relative",
+  "editor.formatOnSave": true,
+  "window.systemColorTheme": "dark",
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.accessibilitySupport": "off",
+  "terminal.external.osxExec": "Warp.app",
+  "github.copilot.editor.enableAutoCompletions": true,
+  "eslint.useFlatConfig": true,
+  "rubyLsp.rubyVersionManager": {
+    "identifier": "rbenv"
+  },
+  "gitlens.graph.pullRequests.enabled": true,
+  "workbench.colorTheme": "GitHub Dark High Contrast",
+  "github.copilot.enable": {
+    "plaintext": false,
+    "markdown": false,
+    "scminput": false
+  },
+  "zenMode.hideLineNumbers": false,
+  "editor.lineNumbers": "relative"
 }

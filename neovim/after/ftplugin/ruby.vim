@@ -1,6 +1,3 @@
-let b:ale_fixers=['standardrb']
-let b:ale_linters=['standardrb']
-
 " Existing b:match_words definition (if any)
 if exists("b:match_words")
   let b:match_words .= ','

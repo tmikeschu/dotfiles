@@ -1,6 +1,8 @@
 [
-  { "key": "ctrl+b e", "command": "workbench.action.focusActiveEditorGroup" },
-  { "key": "ctrl+b h", "command": "workbench.action.focusSideBar" },
+  {
+    "key": "ctrl+b h",
+    "command": "workbench.action.focusSideBar"
+  },
   { "key": "ctrl+b f", "command": "workbench.action.focusSideBar" },
   { "key": "ctrl+b t", "command": "workbench.action.terminal.focus" },
   {
@@ -20,14 +22,6 @@
     "when": "explorerViewletFocus"
   },
   {
-    "key": "ctrl+b n",
-    "command": "workbench.action.terminal.focusNext"
-  },
-  {
-    "key": "ctrl+b p",
-    "command": "workbench.action.terminal.focusPrevious"
-  },
-  {
     "key": "ctrl+w l",
     "command": "workbench.action.terminal.focusNextPane",
     "when": "terminalFocus"
@@ -36,10 +30,6 @@
     "key": "ctrl+w h",
     "command": "workbench.action.terminal.focusPreviousPane",
     "when": "terminalFocus"
-  },
-  {
-    "key": "ctrl+b c",
-    "command": "workbench.action.terminal.new"
   },
   {
     "key": "ctrl+b x",
@@ -116,5 +106,106 @@
     "key": "shift+alt+f",
     "command": "-filesExplorer.findInFolder",
     "when": "explorerResourceIsFolder && explorerViewletVisible && filesExplorerFocus && !inputFocus"
+  },
+  {
+    "key": "cmd+k",
+    "command": "workbench.action.terminal.clear",
+    "when": "terminalFocus && terminalHasBeenCreated && !accessibilityModeEnabled || terminalFocus && terminalProcessSupported && !accessibilityModeEnabled || accessibilityModeEnabled && accessibleViewIsShown && terminalHasBeenCreated && accessibleViewCurrentProviderId == 'terminal' || accessibilityModeEnabled && accessibleViewIsShown && terminalProcessSupported && accessibleViewCurrentProviderId == 'terminal'"
+  },
+  {
+    "key": "cmd+k",
+    "command": "-workbench.action.terminal.clear",
+    "when": "terminalFocus && terminalHasBeenCreated && !accessibilityModeEnabled || terminalFocus && terminalProcessSupported && !accessibilityModeEnabled || accessibilityModeEnabled && accessibleViewIsShown && terminalHasBeenCreated && accessibleViewCurrentProviderId == 'terminal' || accessibilityModeEnabled && accessibleViewIsShown && terminalProcessSupported && accessibleViewCurrentProviderId == 'terminal'"
+  },
+  {
+    "key": "cmd+k",
+    "command": "aipopup.action.modal.generate",
+    "when": "editorFocus && !composerBarIsVisible && !composerControlPanelIsVisible"
+  },
+  {
+    "key": "shift+cmd+k",
+    "command": "-aipopup.action.modal.generate",
+    "when": "editorFocus && !composerBarIsVisible && !composerControlPanelIsVisible"
+  },
+  {
+    "key": "ctrl+b k",
+    "command": "cursorai.action.generateInTerminal",
+    "when": "terminalFocus && terminalHasBeenCreated || terminalFocus && terminalProcessSupported"
+  },
+  {
+    "key": "cmd+k",
+    "command": "-cursorai.action.generateInTerminal",
+    "when": "terminalFocus && terminalHasBeenCreated || terminalFocus && terminalProcessSupported"
+  },
+  {
+    "key": "cmd+k",
+    "command": "-aipopup.action.modal.generate",
+    "when": "editorFocus && !composerBarIsVisible && !composerControlPanelIsVisible"
+  },
+  {
+    "key": "shift+cmd+c",
+    "command": "-workbench.action.terminal.openNativeConsole",
+    "when": "!terminalFocus"
+  },
+  {
+    "key": "ctrl+b e",
+    "command": "workbench.action.focusActiveEditorGroup",
+    "when": "filesExplorerFocus"
+  },
+  {
+    "key": "ctrl+b e",
+    "command": "workbench.action.terminal.moveToEditor",
+    "when": "terminalFocus"
+  },
+  {
+    "key": "ctrl+b e",
+    "command": "workbench.action.terminal.moveToTerminalPanel",
+    "when": "terminalEditorFocus"
+  },
+  {
+    "key": "cmd+r h",
+    "command": "workbench.action.moveEditorLeftInGroup"
+  },
+  {
+    "key": "cmd+r shift+cmd+left",
+    "command": "-workbench.action.moveEditorLeftInGroup"
+  },
+  {
+    "key": "cmd+r l",
+    "command": "workbench.action.moveEditorRightInGroup"
+  },
+  {
+    "key": "cmd+r shift+cmd+right",
+    "command": "-workbench.action.moveEditorRightInGroup"
+  },
+  {
+    "key": "ctrl+b c",
+    "command": "workbench.action.terminal.new",
+    "when": "terminalProcessSupported || terminalWebExtensionContributedProfile"
+  },
+  {
+    "key": "ctrl+shift+`",
+    "command": "-workbench.action.terminal.new",
+    "when": "terminalProcessSupported || terminalWebExtensionContributedProfile"
+  },
+  {
+    "key": "ctrl+b p",
+    "command": "workbench.action.terminal.focusPrevious",
+    "when": "terminalFocus && terminalHasBeenCreated && !terminalEditorFocus || terminalFocus && terminalProcessSupported && !terminalEditorFocus"
+  },
+  {
+    "key": "shift+cmd+[",
+    "command": "-workbench.action.terminal.focusPrevious",
+    "when": "terminalFocus && terminalHasBeenCreated && !terminalEditorFocus || terminalFocus && terminalProcessSupported && !terminalEditorFocus"
+  },
+  {
+    "key": "ctrl+b n",
+    "command": "workbench.action.terminal.focusNext",
+    "when": "terminalFocus && terminalHasBeenCreated && !terminalEditorFocus || terminalFocus && terminalProcessSupported && !terminalEditorFocus"
+  },
+  {
+    "key": "shift+cmd+]",
+    "command": "-workbench.action.terminal.focusNext",
+    "when": "terminalFocus && terminalHasBeenCreated && !terminalEditorFocus || terminalFocus && terminalProcessSupported && !terminalEditorFocus"
   }
 ]
